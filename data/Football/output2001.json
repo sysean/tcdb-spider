@@ -1,0 +1,446 @@
+[
+    {
+        "name": "2001 Bowman",
+        "sid": "4452"
+    },
+    {
+        "name": "2001 Bowman Chrome",
+        "sid": "4453"
+    },
+    {
+        "name": "2001 Bowman's Best",
+        "sid": "4454"
+    },
+    {
+        "name": "2001 Donruss Classics",
+        "sid": "4455"
+    },
+    {
+        "name": "2001 Donruss Elite",
+        "sid": "4458"
+    },
+    {
+        "name": "2001 Finest",
+        "sid": "4460"
+    },
+    {
+        "name": "2001 Fleer Authority",
+        "sid": "4461"
+    },
+    {
+        "name": "2001 Fleer E-X",
+        "sid": "4463"
+    },
+    {
+        "name": "2001 Fleer Focus",
+        "sid": "4464"
+    },
+    {
+        "name": "2001 Fleer Game Time",
+        "sid": "4465"
+    },
+    {
+        "name": "2001 Fleer Genuine",
+        "sid": "4466"
+    },
+    {
+        "name": "2001 Fleer Hot Prospects",
+        "sid": "4470"
+    },
+    {
+        "name": "2001 Fleer Legacy",
+        "sid": "4472"
+    },
+    {
+        "name": "2001 Fleer Premium",
+        "sid": "4473"
+    },
+    {
+        "name": "2001 Fleer Showcase",
+        "sid": "4474"
+    },
+    {
+        "name": "2001 Fleer Tradition",
+        "sid": "4475"
+    },
+    {
+        "name": "2001 Fleer Tradition Glossy",
+        "sid": "4469"
+    },
+    {
+        "name": "2001 Leaf Certified Materials",
+        "sid": "4476"
+    },
+    {
+        "name": "2001 Leaf Rookies & Stars",
+        "sid": "4477"
+    },
+    {
+        "name": "2001 NFL Showdown 1st & Goal",
+        "sid": "8433"
+    },
+    {
+        "name": "2001 NFL Showdown 1st Edition",
+        "sid": "8432"
+    },
+    {
+        "name": "2001 Pacific",
+        "sid": "4478"
+    },
+    {
+        "name": "2001 Pacific Canvas Impressions",
+        "sid": "4479"
+    },
+    {
+        "name": "2001 Pacific Crown Royale",
+        "sid": "4480"
+    },
+    {
+        "name": "2001 Pacific Dynagon",
+        "sid": "4483"
+    },
+    {
+        "name": "2001 Pacific Invincible",
+        "sid": "4484"
+    },
+    {
+        "name": "2001 Pacific Prism Atomic",
+        "sid": "8435"
+    },
+    {
+        "name": "2001 Pacific Private Stock",
+        "sid": "4486"
+    },
+    {
+        "name": "2001 Pacific Private Stock Titanium",
+        "sid": "4487"
+    },
+    {
+        "name": "2001 Pacific Private Stock Titanium Postseason Edition",
+        "sid": "36653"
+    },
+    {
+        "name": "2001 Pacific Vanguard",
+        "sid": "4488"
+    },
+    {
+        "name": "2001 Playoff Absolute Memorabilia",
+        "sid": "4489"
+    },
+    {
+        "name": "2001 Playoff Contenders",
+        "sid": "4490"
+    },
+    {
+        "name": "2001 Playoff Honors",
+        "sid": "4491"
+    },
+    {
+        "name": "2001 Playoff Preferred",
+        "sid": "4492"
+    },
+    {
+        "name": "2001 Quantum Leaf",
+        "sid": "4495"
+    },
+    {
+        "name": "2001 Score",
+        "sid": "4500"
+    },
+    {
+        "name": "2001 Score Select",
+        "sid": "4501"
+    },
+    {
+        "name": "2001 SP Authentic",
+        "sid": "4502"
+    },
+    {
+        "name": "2001 SP Game Used Edition",
+        "sid": "4503"
+    },
+    {
+        "name": "2001 SPx",
+        "sid": "4504"
+    },
+    {
+        "name": "2001 Stadium Club",
+        "sid": "4505"
+    },
+    {
+        "name": "2001 Topps",
+        "sid": "4506"
+    },
+    {
+        "name": "2001 Topps Archives",
+        "sid": "9396"
+    },
+    {
+        "name": "2001 Topps Archives Reserve",
+        "sid": "4507"
+    },
+    {
+        "name": "2001 Topps Chrome",
+        "sid": "4508"
+    },
+    {
+        "name": "2001 Topps Debut",
+        "sid": "4509"
+    },
+    {
+        "name": "2001 Topps Gallery",
+        "sid": "4510"
+    },
+    {
+        "name": "2001 Topps Heritage",
+        "sid": "4512"
+    },
+    {
+        "name": "2001 Topps Reserve",
+        "sid": "4513"
+    },
+    {
+        "name": "2001 Topps XFL",
+        "sid": "9397"
+    },
+    {
+        "name": "2001 UD Game Gear",
+        "sid": "4514"
+    },
+    {
+        "name": "2001 UD Graded",
+        "sid": "4515"
+    },
+    {
+        "name": "2001 Ultra",
+        "sid": "4518"
+    },
+    {
+        "name": "2001 Upper Deck",
+        "sid": "4519"
+    },
+    {
+        "name": "2001 Upper Deck Legends",
+        "sid": "4520"
+    },
+    {
+        "name": "2001 Upper Deck MVP",
+        "sid": "4521"
+    },
+    {
+        "name": "2001 Upper Deck Ovation",
+        "sid": "4522"
+    },
+    {
+        "name": "2001 Upper Deck Pros & Prospects",
+        "sid": "4523"
+    },
+    {
+        "name": "2001 Upper Deck Rookie F/X",
+        "sid": "2001-Upper-Deck-Rookie-F"
+    },
+    {
+        "name": "2001 Upper Deck Top Tier",
+        "sid": "4516"
+    },
+    {
+        "name": "2001 Upper Deck Victory",
+        "sid": "4524"
+    },
+    {
+        "name": "2001 Upper Deck Vintage",
+        "sid": "4517"
+    },
+    {
+        "name": "2001 Upper Deck Super Bowl XXXV",
+        "sid": "96792"
+    },
+    {
+        "name": "2001 JOGO",
+        "sid": "166202"
+    },
+    {
+        "name": "2001 Alltel Nebraska Cornhuskers Schedules",
+        "sid": "166766"
+    },
+    {
+        "name": "2001 Lincoln Star Nebraska Cornhuskers Schedules",
+        "sid": "166764"
+    },
+    {
+        "name": "2001 Marshall Thundering Herd GMAC Bowl",
+        "sid": "387217"
+    },
+    {
+        "name": "2001 Multi-Ad Tennessee Volunteers",
+        "sid": "306537"
+    },
+    {
+        "name": "2001 Nebraska Bankers Association Nebraska Cornhuskers Schedules",
+        "sid": "166765"
+    },
+    {
+        "name": "2001 Nebraska Cornhuskers Senior Set (5th Edition)",
+        "sid": "165142"
+    },
+    {
+        "name": "2001 Oregon State Beavers Smokey",
+        "sid": "249394"
+    },
+    {
+        "name": "2001 Press Pass",
+        "sid": "4493"
+    },
+    {
+        "name": "2001 Press Pass SE",
+        "sid": "4494"
+    },
+    {
+        "name": "2001 SAGE HIT",
+        "sid": "4499"
+    },
+    {
+        "name": "2001 Senior Bowl",
+        "sid": "124441"
+    },
+    {
+        "name": "2001 The Second Mile Penn State Nittany Lions: Fall Edition",
+        "sid": "250083"
+    },
+    {
+        "name": "2001 The University of Oklahoma 2000-2001 Football Team Commemorative Collector Cards",
+        "sid": "440758"
+    },
+    {
+        "name": "2001 USC Trojans Police",
+        "sid": "113391"
+    },
+    {
+        "name": "2001 Washington Huskies",
+        "sid": "339393"
+    },
+    {
+        "name": "2001 SAGE",
+        "sid": "4498"
+    },
+    {
+        "name": "2001 ArtBox XFL Tabletop",
+        "sid": "141478"
+    },
+    {
+        "name": "2001 Big 33 Ohio High School",
+        "sid": "166317"
+    },
+    {
+        "name": "2001 Big 33 Pennsylvania High School",
+        "sid": "250382"
+    },
+    {
+        "name": "2001 Goal Line Hall of Fame Art Collection",
+        "sid": "158369"
+    },
+    {
+        "name": "2001 Green Bay Packers 1936 Champion Series",
+        "sid": "309992"
+    },
+    {
+        "name": "2001 Hall of Fame Metallics",
+        "sid": "165386"
+    },
+    {
+        "name": "2001 King B Discs",
+        "sid": "73564"
+    },
+    {
+        "name": "2001 Kurt Warner Collector Series Autograph",
+        "sid": "298323"
+    },
+    {
+        "name": "2001 Oklahoma Wranglers (AFL)",
+        "sid": "391519"
+    },
+    {
+        "name": "2001 Playoff NFL Players Awards Banquet Unsung Heroes",
+        "sid": "437376"
+    },
+    {
+        "name": "2001 Topps Pro Bowl Treasure Hunt",
+        "sid": "213764"
+    },
+    {
+        "name": "2001 Topps Super Bowl XXXV Card Show",
+        "sid": "36847"
+    },
+    {
+        "name": "2001 Ultra White Rose Collectibles Diecast Cards",
+        "sid": "36917"
+    },
+    {
+        "name": "2001 Upper Deck Peyton Manning e-Card",
+        "sid": "36922"
+    },
+    {
+        "name": "2001 Upper Deck PlayMakers",
+        "sid": "184477"
+    },
+    {
+        "name": "2001 Upper Deck Super Bowl XXXV Special Moments",
+        "sid": "36936"
+    },
+    {
+        "name": "2001 Topps eTopps",
+        "sid": "150038"
+    },
+    {
+        "name": "2001 Mountain West Conference",
+        "sid": "238846"
+    },
+    {
+        "name": "2001 NFLPA Player of the Day",
+        "sid": "135595"
+    },
+    {
+        "name": "2001 NFLPA Super Bowl Player's Party",
+        "sid": "135594"
+    },
+    {
+        "name": "2001 Super Bowl XXXV Dan Marino",
+        "sid": "90740"
+    },
+    {
+        "name": "2001 Topps Pro Bowl Card Show",
+        "sid": "37525"
+    },
+    {
+        "name": "2001 Upper Deck Black Diamond Super Bowl XXXV 3x5",
+        "sid": "36933"
+    },
+    {
+        "name": "2001 Coca-Cola/Kroger Tennessee Titans",
+        "sid": "2001-Coca-Cola"
+    },
+    {
+        "name": "2001 Green Bay Packers Police",
+        "sid": "118365"
+    },
+    {
+        "name": "2001 Miami Dolphins Dol-Fan Club",
+        "sid": "152291"
+    },
+    {
+        "name": "2001 Minnesota Vikings Autumn Heroes",
+        "sid": "167415"
+    },
+    {
+        "name": "2001 Minnesota Vikings D.A.R.E.",
+        "sid": "255610"
+    },
+    {
+        "name": "2001 Upper Deck Minnesota Vikings SGA",
+        "sid": "222788"
+    },
+    {
+        "name": "2001 Upper Deck Washington Redskins",
+        "sid": "222699"
+    }
+]

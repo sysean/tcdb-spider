@@ -1,0 +1,626 @@
+[
+    {
+        "name": "1997 Action Packed",
+        "sid": "3902"
+    },
+    {
+        "name": "1997 Bowman's Best",
+        "sid": "3906"
+    },
+    {
+        "name": "1997 Collector's Choice",
+        "sid": "3910"
+    },
+    {
+        "name": "1997 Collector's Edge Excalibur",
+        "sid": "3916"
+    },
+    {
+        "name": "1997 Collector's Edge Extreme",
+        "sid": "3924"
+    },
+    {
+        "name": "1997 Collector's Edge Masters",
+        "sid": "3930"
+    },
+    {
+        "name": "1997 Donruss",
+        "sid": "3940"
+    },
+    {
+        "name": "1997 Donruss Preferred",
+        "sid": "3944"
+    },
+    {
+        "name": "1997 Finest",
+        "sid": "3953"
+    },
+    {
+        "name": "1997 Flair Showcase",
+        "sid": "3955"
+    },
+    {
+        "name": "1997 Fleer",
+        "sid": "3961"
+    },
+    {
+        "name": "1997 Fleer Goudey",
+        "sid": "3965"
+    },
+    {
+        "name": "1997 Fleer Goudey II",
+        "sid": "3968"
+    },
+    {
+        "name": "1997 Leaf",
+        "sid": "3978"
+    },
+    {
+        "name": "1997 Leaf Signature",
+        "sid": "3985"
+    },
+    {
+        "name": "1997 Metal Universe",
+        "sid": "3986"
+    },
+    {
+        "name": "1997 Motion Vision",
+        "sid": "3994"
+    },
+    {
+        "name": "1997 Pacific Crown Collection",
+        "sid": "3998"
+    },
+    {
+        "name": "1997 Pacific Crown Royale",
+        "sid": "4003"
+    },
+    {
+        "name": "1997 Pacific Dynagon Prism",
+        "sid": "4011"
+    },
+    {
+        "name": "1997 Pacific Invincible",
+        "sid": "4016"
+    },
+    {
+        "name": "1997 Pacific Philadelphia",
+        "sid": "4020"
+    },
+    {
+        "name": "1997 Pacific Revolution",
+        "sid": "4025"
+    },
+    {
+        "name": "1997 Pinnacle",
+        "sid": "4030"
+    },
+    {
+        "name": "1997 Pinnacle Certified",
+        "sid": "4032"
+    },
+    {
+        "name": "1997 Pinnacle Inscriptions",
+        "sid": "4036"
+    },
+    {
+        "name": "1997 Pinnacle Inside",
+        "sid": "4039"
+    },
+    {
+        "name": "1997 Pinnacle Mint",
+        "sid": "4042"
+    },
+    {
+        "name": "1997 Pinnacle Totally Certified",
+        "sid": "4049"
+    },
+    {
+        "name": "1997 Pinnacle X-Press",
+        "sid": "4051"
+    },
+    {
+        "name": "1997 Playoff Absolute Beginnings",
+        "sid": "4061"
+    },
+    {
+        "name": "1997 Playoff Contenders",
+        "sid": "4069"
+    },
+    {
+        "name": "1997 Playoff First & Ten",
+        "sid": "4057"
+    },
+    {
+        "name": "1997 Playoff Zone",
+        "sid": "4075"
+    },
+    {
+        "name": "1997 Pro Line",
+        "sid": "4082"
+    },
+    {
+        "name": "1997 Pro Line DC III",
+        "sid": "4085"
+    },
+    {
+        "name": "1997 Pro Line Gems",
+        "sid": "4088"
+    },
+    {
+        "name": "1997 Pro Line Memorabilia",
+        "sid": "34455"
+    },
+    {
+        "name": "1997 Score",
+        "sid": "4093"
+    },
+    {
+        "name": "1997 Score Board NFL Experience",
+        "sid": "4094"
+    },
+    {
+        "name": "1997 Score Board NFL Rookies",
+        "sid": "34471"
+    },
+    {
+        "name": "1997 Score Board Playbook",
+        "sid": "4097"
+    },
+    {
+        "name": "1997 Score Board Playbook By The Numbers",
+        "sid": "34475"
+    },
+    {
+        "name": "1997 Score Hobby Reserve",
+        "sid": "34462"
+    },
+    {
+        "name": "1997 SkyBox E-X2000",
+        "sid": "4106"
+    },
+    {
+        "name": "1997 SkyBox Impact",
+        "sid": "4110"
+    },
+    {
+        "name": "1997 SkyBox Premium",
+        "sid": "4103"
+    },
+    {
+        "name": "1997 SP Authentic",
+        "sid": "4121"
+    },
+    {
+        "name": "1997 SPx",
+        "sid": "4124"
+    },
+    {
+        "name": "1997 Stadium Club",
+        "sid": "4128"
+    },
+    {
+        "name": "1997 Studio",
+        "sid": "4138"
+    },
+    {
+        "name": "1997 Topps",
+        "sid": "4141"
+    },
+    {
+        "name": "1997 Topps Chrome",
+        "sid": "4143"
+    },
+    {
+        "name": "1997 Topps Gallery",
+        "sid": "4147"
+    },
+    {
+        "name": "1997 Topps Stars",
+        "sid": "4157"
+    },
+    {
+        "name": "1997 Ultra",
+        "sid": "4163"
+    },
+    {
+        "name": "1997 Upper Deck",
+        "sid": "4177"
+    },
+    {
+        "name": "1997 Upper Deck Black Diamond",
+        "sid": "4178"
+    },
+    {
+        "name": "1997 Upper Deck Legends",
+        "sid": "4181"
+    },
+    {
+        "name": "1997 Upper Deck UD3",
+        "sid": "4187"
+    },
+    {
+        "name": "1997 Zenith",
+        "sid": "4191"
+    },
+    {
+        "name": "1997-98 Bowman's Best Jumbos",
+        "sid": "56718"
+    },
+    {
+        "name": "1997-98 Bowman's Best Super Bowl Jumbos",
+        "sid": "56722"
+    },
+    {
+        "name": "1997 Stadium Club Members Only 55",
+        "sid": "34519"
+    },
+    {
+        "name": "1997 Upper Deck Authenticated NFL Stars: A Cut Above 3x5",
+        "sid": "134352"
+    },
+    {
+        "name": "1997 Upper Deck Legends of the Green and Gold",
+        "sid": "81989"
+    },
+    {
+        "name": "1997 JOGO",
+        "sid": "164069"
+    },
+    {
+        "name": "1997 JOGO/Betty Crocker",
+        "sid": "1997-JOGO"
+    },
+    {
+        "name": "1997 Saskatchewan Roughriders",
+        "sid": "68295"
+    },
+    {
+        "name": "1997 Florida State Seminoles-AMA",
+        "sid": "244002"
+    },
+    {
+        "name": "1997 Florida State Seminoles-USA",
+        "sid": "244215"
+    },
+    {
+        "name": "1997 Genuine Article",
+        "sid": "9377"
+    },
+    {
+        "name": "1997 Homeworks Unlimited Washington Huskies",
+        "sid": "340727"
+    },
+    {
+        "name": "1997 Iowa Hawkeyes",
+        "sid": "244954"
+    },
+    {
+        "name": "1997 JCPenney Nebraska Cornhuskers Schedules",
+        "sid": "166758"
+    },
+    {
+        "name": "1997 Lincoln Star Nebraska Cornhuskers Schedules",
+        "sid": "166757"
+    },
+    {
+        "name": "1997 Nebraska Cornhuskers Senior Set (3rd Edition)",
+        "sid": "165141"
+    },
+    {
+        "name": "1997 Ohio State Buckeyes",
+        "sid": "166871"
+    },
+    {
+        "name": "1997 Press Pass",
+        "sid": "8397"
+    },
+    {
+        "name": "1997 Senior Bowl",
+        "sid": "229678"
+    },
+    {
+        "name": "1997 The Second Mile Penn State Nittany Lions: Fall Edition",
+        "sid": "249784"
+    },
+    {
+        "name": "1997 UCLA Bruins",
+        "sid": "196486"
+    },
+    {
+        "name": "1997 Washington Huskies",
+        "sid": "339419"
+    },
+    {
+        "name": "1997 XtraMart Connecticut Huskies",
+        "sid": "205319"
+    },
+    {
+        "name": "1997 Braunschweig Lions",
+        "sid": "213014"
+    },
+    {
+        "name": "1997 Franz Bread Seattle Seahawks",
+        "sid": "149792"
+    },
+    {
+        "name": "1997 Big 33 Ohio High School",
+        "sid": "230803"
+    },
+    {
+        "name": "1997 Big 33 Pennsylvania High School",
+        "sid": "250324"
+    },
+    {
+        "name": "1997 Bleachers 23-Kt Gold",
+        "sid": "406100"
+    },
+    {
+        "name": "1997 Cleo Quarterback Club Valentines",
+        "sid": "233540"
+    },
+    {
+        "name": "1997 Cleo Quarterback Club Valentines Window Clings",
+        "sid": "216150"
+    },
+    {
+        "name": "1997 Collector's Choice Cardzillion/Folz Mini",
+        "sid": "1997-Collector's-Choice-Cardzillion"
+    },
+    {
+        "name": "1997 Crown Pro Magnets",
+        "sid": "442888"
+    },
+    {
+        "name": "1997 Crown Pro Stickers Carolina Panthers",
+        "sid": "436157"
+    },
+    {
+        "name": "1997 Crown Pro Stickers Dallas Cowboys",
+        "sid": "436158"
+    },
+    {
+        "name": "1997 Crown Pro Stickers Green Bay Packers",
+        "sid": "436159"
+    },
+    {
+        "name": "1997 Crown Pro Stickers Jacksonville Jaguars",
+        "sid": "436160"
+    },
+    {
+        "name": "1997 Crown Pro Stickers Miami Dolphins",
+        "sid": "436162"
+    },
+    {
+        "name": "1997 Crown Pro Stickers NFL Quarterbacks",
+        "sid": "436156"
+    },
+    {
+        "name": "1997 Crown Pro Stickers NFL Random Pack",
+        "sid": "170956"
+    },
+    {
+        "name": "1997 Destiny Telecom Pro Football Elite Series Men of Destiny",
+        "sid": "191816"
+    },
+    {
+        "name": "1997 FlickBall ProFlick",
+        "sid": "82642"
+    },
+    {
+        "name": "1997 FlickBall QB Club",
+        "sid": "159285"
+    },
+    {
+        "name": "1997 Goal Line Hall of Fame Art Collection",
+        "sid": "158365"
+    },
+    {
+        "name": "1997 Hall of Fame Metallics",
+        "sid": "165382"
+    },
+    {
+        "name": "1997 Iowa Barnstormers (AFL)",
+        "sid": "241935"
+    },
+    {
+        "name": "1997 Kenner Starting Lineup Cards",
+        "sid": "67794"
+    },
+    {
+        "name": "1997 Kenner Starting Lineup Cards Classic Doubles",
+        "sid": "146970"
+    },
+    {
+        "name": "1997 Kenner Starting Lineup Cards Starting Lineup Convention",
+        "sid": "327618"
+    },
+    {
+        "name": "1997 King B Discs",
+        "sid": "73560"
+    },
+    {
+        "name": "1997 Lone Star Printing Co. '74 Miami Dolphins",
+        "sid": "332070"
+    },
+    {
+        "name": "1997 NFL Players Party",
+        "sid": "153827"
+    },
+    {
+        "name": "1997 NFL Properties Santa Claus",
+        "sid": "166075"
+    },
+    {
+        "name": "1997 Pinnacle Magic Motion Puzzles",
+        "sid": "34358"
+    },
+    {
+        "name": "1997 Pinnacle Ultra-PRO Rembrandt",
+        "sid": "34368"
+    },
+    {
+        "name": "1997 Playoff Sports Cards Picks",
+        "sid": "242883"
+    },
+    {
+        "name": "1997 Playoff Super Bowl Card Show",
+        "sid": "95808"
+    },
+    {
+        "name": "1997 Roox Prep Stars",
+        "sid": "340769"
+    },
+    {
+        "name": "1997 Sentry Green Bay Packers vs Chicago Bears SGA",
+        "sid": "231941"
+    },
+    {
+        "name": "1997 Sentry Green Bay Packers vs Minnesota Vikings Junior Power Pack",
+        "sid": "212273"
+    },
+    {
+        "name": "1997 Sprint Heroes of the Game Phone Cards",
+        "sid": "193997"
+    },
+    {
+        "name": "1997 Sprint Spree Phone Cards",
+        "sid": "193996"
+    },
+    {
+        "name": "1997 Stadium Club Insider",
+        "sid": "184474"
+    },
+    {
+        "name": "1997 Upper Deck Authenticated Navigating the Red Zone",
+        "sid": "179878"
+    },
+    {
+        "name": "1997 Upper Deck Dallas Cowboys Holiday Troy Drive",
+        "sid": "177169"
+    },
+    {
+        "name": "1997 Upper Deck You Crash the Game Super Bowl XXXI",
+        "sid": "34547"
+    },
+    {
+        "name": "1997 USA Games NFL-Opoly",
+        "sid": "185136"
+    },
+    {
+        "name": "1997 7-Eleven Promotion",
+        "sid": "163228"
+    },
+    {
+        "name": "1997 Best Heroes of the Gridiron Promos",
+        "sid": "197724"
+    },
+    {
+        "name": "1997 General Mills Crispy Wheaties Super Replays",
+        "sid": "268737"
+    },
+    {
+        "name": "1997 Northern Arizona University Commemorative Card Series",
+        "sid": "460596"
+    },
+    {
+        "name": "1997 Green Bay Packers Police",
+        "sid": "133645"
+    },
+    {
+        "name": "1997 Minnesota Vikings Police",
+        "sid": "142158"
+    },
+    {
+        "name": "1997 Norwegian Cruise Line Miami Dolphins",
+        "sid": "297858"
+    },
+    {
+        "name": "1997 San Diego Chargers Police",
+        "sid": "157525"
+    },
+    {
+        "name": "1997 Collector's Choice Carolina Panthers",
+        "sid": "90287"
+    },
+    {
+        "name": "1997 Collector's Choice Chicago Bears",
+        "sid": "90282"
+    },
+    {
+        "name": "1997 Collector's Choice Dallas Cowboys",
+        "sid": "90283"
+    },
+    {
+        "name": "1997 Collector's Choice Denver Broncos",
+        "sid": "90280"
+    },
+    {
+        "name": "1997 Collector's Choice Green Bay Packers",
+        "sid": "90286"
+    },
+    {
+        "name": "1997 Collector's Choice Jacksonville Jaguars",
+        "sid": "90285"
+    },
+    {
+        "name": "1997 Collector's Choice Miami Dolphins",
+        "sid": "90284"
+    },
+    {
+        "name": "1997 Collector's Choice Pittsburgh Steelers",
+        "sid": "90288"
+    },
+    {
+        "name": "1997 Collector's Choice San Francisco 49ers",
+        "sid": "90281"
+    },
+    {
+        "name": "1997 Collector's Choice ShopKo Green Bay Packers",
+        "sid": "95874"
+    },
+    {
+        "name": "1997 Playoff Green Bay Packers Super Sunday",
+        "sid": "95810"
+    },
+    {
+        "name": "1997 Score Carolina Panthers",
+        "sid": "78437"
+    },
+    {
+        "name": "1997 Score Chicago Bears",
+        "sid": "78429"
+    },
+    {
+        "name": "1997 Score Dallas Cowboys",
+        "sid": "78432"
+    },
+    {
+        "name": "1997 Score Denver Broncos",
+        "sid": "78430"
+    },
+    {
+        "name": "1997 Score Green Bay Packers",
+        "sid": "78436"
+    },
+    {
+        "name": "1997 Score Miami Dolphins",
+        "sid": "78433"
+    },
+    {
+        "name": "1997 Score New England Patriots",
+        "sid": "78438"
+    },
+    {
+        "name": "1997 Score New York Giants",
+        "sid": "78435"
+    },
+    {
+        "name": "1997 Score Philadelphia Eagles",
+        "sid": "78434"
+    },
+    {
+        "name": "1997 Score San Francisco 49ers",
+        "sid": "78428"
+    }
+]

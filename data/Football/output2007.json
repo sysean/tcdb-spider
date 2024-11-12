@@ -1,0 +1,550 @@
+[
+    {
+        "name": "2007 Bowman",
+        "sid": "6592"
+    },
+    {
+        "name": "2007 Bowman Chrome",
+        "sid": "8506"
+    },
+    {
+        "name": "2007 Bowman Sterling",
+        "sid": "6593"
+    },
+    {
+        "name": "2007 Donruss Classics",
+        "sid": "4779"
+    },
+    {
+        "name": "2007 Donruss Elite",
+        "sid": "4780"
+    },
+    {
+        "name": "2007 Donruss Gridiron Gear",
+        "sid": "8497"
+    },
+    {
+        "name": "2007 Donruss Threads",
+        "sid": "4781"
+    },
+    {
+        "name": "2007 Finest",
+        "sid": "6594"
+    },
+    {
+        "name": "2007 Leaf Certified Materials",
+        "sid": "8489"
+    },
+    {
+        "name": "2007 Leaf Limited",
+        "sid": "8496"
+    },
+    {
+        "name": "2007 Leaf Rookies & Stars",
+        "sid": "8492"
+    },
+    {
+        "name": "2007 Leaf Rookies & Stars Longevity",
+        "sid": "42896"
+    },
+    {
+        "name": "2007 Playoff Absolute Memorabilia",
+        "sid": "6591"
+    },
+    {
+        "name": "2007 Playoff Contenders",
+        "sid": "8494"
+    },
+    {
+        "name": "2007 Playoff National Treasures",
+        "sid": "8503"
+    },
+    {
+        "name": "2007 Playoff NFL Playoffs",
+        "sid": "8490"
+    },
+    {
+        "name": "2007 Playoff NFL Playoffs Preview",
+        "sid": "43271"
+    },
+    {
+        "name": "2007 Playoff Prestige",
+        "sid": "4783"
+    },
+    {
+        "name": "2007 Score",
+        "sid": "4789"
+    },
+    {
+        "name": "2007 Score Select",
+        "sid": "4790"
+    },
+    {
+        "name": "2007 SP Authentic",
+        "sid": "8491"
+    },
+    {
+        "name": "2007 SP Chirography",
+        "sid": "8493"
+    },
+    {
+        "name": "2007 SP Rookie Threads",
+        "sid": "6596"
+    },
+    {
+        "name": "2007 SPx",
+        "sid": "4791"
+    },
+    {
+        "name": "2007 Topps",
+        "sid": "4792"
+    },
+    {
+        "name": "2007 Topps Chrome",
+        "sid": "4793"
+    },
+    {
+        "name": "2007 Topps Co-Signers",
+        "sid": "8495"
+    },
+    {
+        "name": "2007 Topps Performance",
+        "sid": "8499"
+    },
+    {
+        "name": "2007 Topps Total",
+        "sid": "4795"
+    },
+    {
+        "name": "2007 Topps Triple Threads",
+        "sid": "8500"
+    },
+    {
+        "name": "2007 Topps TX Exclusive",
+        "sid": "6597"
+    },
+    {
+        "name": "2007 Ultra",
+        "sid": "4782"
+    },
+    {
+        "name": "2007 Upper Deck",
+        "sid": "6598"
+    },
+    {
+        "name": "2007 Upper Deck Artifacts",
+        "sid": "4796"
+    },
+    {
+        "name": "2007 Upper Deck Exquisite Collection",
+        "sid": "8504"
+    },
+    {
+        "name": "2007 Upper Deck First Edition",
+        "sid": "4797"
+    },
+    {
+        "name": "2007 Upper Deck Premier",
+        "sid": "8505"
+    },
+    {
+        "name": "2007 Upper Deck Sweet Spot",
+        "sid": "8501"
+    },
+    {
+        "name": "2007 Upper Deck Trilogy",
+        "sid": "8502"
+    },
+    {
+        "name": "2007 Upper Deck Ultimate Collection",
+        "sid": "8498"
+    },
+    {
+        "name": "2007 Upper Deck Rookie Premiere Box Set",
+        "sid": "9543"
+    },
+    {
+        "name": "2007 Upper Deck Super Bowl XLI Box Set",
+        "sid": "9545"
+    },
+    {
+        "name": "2007 Extreme CFL",
+        "sid": "70868"
+    },
+    {
+        "name": "2007 JOGO",
+        "sid": "165741"
+    },
+    {
+        "name": "2007 Alltel Nebraska Cornhuskers Schedules",
+        "sid": "166784"
+    },
+    {
+        "name": "2007 Choice Hawaii Warriors",
+        "sid": "341564"
+    },
+    {
+        "name": "2007 High Step Washington Huskies",
+        "sid": "82544"
+    },
+    {
+        "name": "2007 Nebraska Bankers Association Nebraska Cornhuskers Schedules",
+        "sid": "166785"
+    },
+    {
+        "name": "2007 Press Pass",
+        "sid": "4784"
+    },
+    {
+        "name": "2007 Press Pass Legends",
+        "sid": "4785"
+    },
+    {
+        "name": "2007 Press Pass SE",
+        "sid": "4786"
+    },
+    {
+        "name": "2007 SAGE Aspire",
+        "sid": "6595"
+    },
+    {
+        "name": "2007 SAGE Decadence",
+        "sid": "9406"
+    },
+    {
+        "name": "2007 SAGE HIT",
+        "sid": "4788"
+    },
+    {
+        "name": "2007 Senior Bowl",
+        "sid": "72052"
+    },
+    {
+        "name": "2007 The Second Mile Penn State Nittany Lions: Fall Edition",
+        "sid": "71432"
+    },
+    {
+        "name": "2007 TK Legacy Penn State Nittany Lions",
+        "sid": "123162"
+    },
+    {
+        "name": "2007 University of Tennessee Medical Center Tennessee Volunteers",
+        "sid": "426806"
+    },
+    {
+        "name": "2007 Wisconsin Badgers Program Cards",
+        "sid": "140763"
+    },
+    {
+        "name": "2007 SAGE",
+        "sid": "4787"
+    },
+    {
+        "name": "2007 Topps Draft Picks & Prospects",
+        "sid": "4794"
+    },
+    {
+        "name": "2007 Donruss Frito Lay",
+        "sid": "67767"
+    },
+    {
+        "name": "2007 McDonald's Green Bay Packers ArchCards",
+        "sid": "299113"
+    },
+    {
+        "name": "2007 Big 33 Ohio High School",
+        "sid": "251756"
+    },
+    {
+        "name": "2007 Big 33 Pennsylvania High School",
+        "sid": "250769"
+    },
+    {
+        "name": "2007 Donruss Dallas Desperados (AFL)",
+        "sid": "164420"
+    },
+    {
+        "name": "2007 Donruss Miami Dolphins Super Bowl XLI Card Show",
+        "sid": "315454"
+    },
+    {
+        "name": "2007 Donruss Pepsi National Convention",
+        "sid": "104133"
+    },
+    {
+        "name": "2007 Donruss Thanksgiving Atlanta Falcons",
+        "sid": "143159"
+    },
+    {
+        "name": "2007 Donruss Thanksgiving Dallas Cowboys",
+        "sid": "280014"
+    },
+    {
+        "name": "2007 Donruss Thanksgiving Detroit Lions",
+        "sid": "143157"
+    },
+    {
+        "name": "2007 Goal Line Hall of Fame Art Collection",
+        "sid": "158339"
+    },
+    {
+        "name": "2007 Hall of Fame Metallics",
+        "sid": "165392"
+    },
+    {
+        "name": "2007 Hero Decks Alabama Crimson Tide Football Heroes Playing Cards",
+        "sid": "255799"
+    },
+    {
+        "name": "2007 Hero Decks Buffalo Bills Football Heroes Playing Cards",
+        "sid": "196959"
+    },
+    {
+        "name": "2007 Hero Decks Florida Gators Football Heroes Playing Cards",
+        "sid": "256076"
+    },
+    {
+        "name": "2007 Hero Decks Georgia Bulldogs Football Heroes Playing Cards",
+        "sid": "255807"
+    },
+    {
+        "name": "2007 Hero Decks Green Bay Packers Football Heroes Playing Cards",
+        "sid": "282068"
+    },
+    {
+        "name": "2007 Hero Decks Indianapolis Colts Football Heroes Playing Cards",
+        "sid": "272926"
+    },
+    {
+        "name": "2007 Hero Decks Tennessee Volunteers Football Heroes Playing Cards",
+        "sid": "257693"
+    },
+    {
+        "name": "2007 MultiAd Chicago Rush (AFL)",
+        "sid": "167268"
+    },
+    {
+        "name": "2007 MultiAd UIF All-Star Classic",
+        "sid": "391943"
+    },
+    {
+        "name": "2007 Playoff Pop Warner Super Bowl",
+        "sid": "272760"
+    },
+    {
+        "name": "2007 San Antonio Steers (NIFL)",
+        "sid": "269323"
+    },
+    {
+        "name": "2007 Topps Generation Now Arrives",
+        "sid": "134118"
+    },
+    {
+        "name": "2007 TriStar SignaCuts",
+        "sid": "243635"
+    },
+    {
+        "name": "2007 UNO Tom Brady",
+        "sid": "309943"
+    },
+    {
+        "name": "2007 Upper Deck Collectibles Diecast Cards Alumni Greats",
+        "sid": "44138"
+    },
+    {
+        "name": "2007 Upper Deck Collectibles Diecast Cards Gridiron Greats",
+        "sid": "282229"
+    },
+    {
+        "name": "2007 Upper Deck Diamond Club",
+        "sid": "44142"
+    },
+    {
+        "name": "2007 Upper Deck Prilosec Brett Favre Evolution of a Football Legend",
+        "sid": "128902"
+    },
+    {
+        "name": "2007 Topps eTopps",
+        "sid": "109711"
+    },
+    {
+        "name": "2007 Topps eTopps Event Series",
+        "sid": "367874"
+    },
+    {
+        "name": "2007 Topps eTopps Football Playoffs",
+        "sid": "340936"
+    },
+    {
+        "name": "2007 Donruss International Series",
+        "sid": "345799"
+    },
+    {
+        "name": "2007 Playoff Hawaii Trade Conference",
+        "sid": "138116"
+    },
+    {
+        "name": "2007 Playoff National Convention",
+        "sid": "161517"
+    },
+    {
+        "name": "2007 Topps Miami Dolphins Super Bowl XLI Card Show",
+        "sid": "315452"
+    },
+    {
+        "name": "2007 Topps Super Bowl XLI Card Show",
+        "sid": "43783"
+    },
+    {
+        "name": "2007 Topps Super Bowl XLI NFL Experience",
+        "sid": "315456"
+    },
+    {
+        "name": "2007 Upper Deck Miami Dolphins Super Bowl XLI Card Show",
+        "sid": "315453"
+    },
+    {
+        "name": "2007 Green Bay Packers Police",
+        "sid": "150855"
+    },
+    {
+        "name": "2007 Washington Redskins 75th Anniversary Legends Medallion Collection",
+        "sid": "326179"
+    },
+    {
+        "name": "2007 Topps Arizona Cardinals",
+        "sid": "48396"
+    },
+    {
+        "name": "2007 Topps Atlanta Falcons",
+        "sid": "124757"
+    },
+    {
+        "name": "2007 Topps Baltimore Ravens",
+        "sid": "124758"
+    },
+    {
+        "name": "2007 Topps Buffalo Bills",
+        "sid": "124759"
+    },
+    {
+        "name": "2007 Topps Carolina Panthers",
+        "sid": "124760"
+    },
+    {
+        "name": "2007 Topps Chicago Bears",
+        "sid": "124761"
+    },
+    {
+        "name": "2007 Topps Cincinnati Bengals",
+        "sid": "124762"
+    },
+    {
+        "name": "2007 Topps Cleveland Browns",
+        "sid": "124763"
+    },
+    {
+        "name": "2007 Topps Dallas Cowboys",
+        "sid": "124764"
+    },
+    {
+        "name": "2007 Topps Denver Broncos",
+        "sid": "124765"
+    },
+    {
+        "name": "2007 Topps Detroit Lions",
+        "sid": "124766"
+    },
+    {
+        "name": "2007 Topps Green Bay Packers",
+        "sid": "124767"
+    },
+    {
+        "name": "2007 Topps Houston Texans",
+        "sid": "124768"
+    },
+    {
+        "name": "2007 Topps Indianapolis Colts",
+        "sid": "124769"
+    },
+    {
+        "name": "2007 Topps Jacksonville Jaguars",
+        "sid": "124770"
+    },
+    {
+        "name": "2007 Topps Kansas City Chiefs",
+        "sid": "124771"
+    },
+    {
+        "name": "2007 Topps Miami Dolphins",
+        "sid": "124772"
+    },
+    {
+        "name": "2007 Topps Minnesota Vikings",
+        "sid": "124773"
+    },
+    {
+        "name": "2007 Topps New England Patriots",
+        "sid": "124774"
+    },
+    {
+        "name": "2007 Topps New Orleans Saints",
+        "sid": "124775"
+    },
+    {
+        "name": "2007 Topps New York Giants",
+        "sid": "124776"
+    },
+    {
+        "name": "2007 Topps New York Jets",
+        "sid": "124777"
+    },
+    {
+        "name": "2007 Topps Oakland Raiders",
+        "sid": "124778"
+    },
+    {
+        "name": "2007 Topps Philadelphia Eagles",
+        "sid": "124779"
+    },
+    {
+        "name": "2007 Topps Pittsburgh Steelers",
+        "sid": "124780"
+    },
+    {
+        "name": "2007 Topps San Diego Chargers",
+        "sid": "124781"
+    },
+    {
+        "name": "2007 Topps San Francisco 49ers",
+        "sid": "124782"
+    },
+    {
+        "name": "2007 Topps Seattle Seahawks",
+        "sid": "124783"
+    },
+    {
+        "name": "2007 Topps St. Louis Rams",
+        "sid": "124784"
+    },
+    {
+        "name": "2007 Topps Tampa Bay Buccaneers",
+        "sid": "124785"
+    },
+    {
+        "name": "2007 Topps Tennessee Titans",
+        "sid": "124786"
+    },
+    {
+        "name": "2007 Topps Washington Redskins",
+        "sid": "124787"
+    },
+    {
+        "name": "2007 Upper Deck Boston Globe New England Patriots",
+        "sid": "158518"
+    },
+    {
+        "name": "2007 Upper Deck Jewel-Osco NFC Champions Chicago Bears",
+        "sid": "384402"
+    }
+]

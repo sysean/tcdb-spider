@@ -1,0 +1,578 @@
+[
+    {
+        "name": "2023 Clearly Donruss",
+        "sid": "423698"
+    },
+    {
+        "name": "2023 Donruss",
+        "sid": "383198"
+    },
+    {
+        "name": "2023 Donruss Elite",
+        "sid": "372364"
+    },
+    {
+        "name": "2023 Donruss Optic",
+        "sid": "414434"
+    },
+    {
+        "name": "2023 Panini Absolute",
+        "sid": "393735"
+    },
+    {
+        "name": "2023 Panini Black",
+        "sid": "373721"
+    },
+    {
+        "name": "2023 Panini Certified",
+        "sid": "392377"
+    },
+    {
+        "name": "2023 Panini Contenders",
+        "sid": "435442"
+    },
+    {
+        "name": "2023 Panini Contenders Optic",
+        "sid": "440819"
+    },
+    {
+        "name": "2023 Panini Gold Standard",
+        "sid": "373720"
+    },
+    {
+        "name": "2023 Panini Illusions",
+        "sid": "410609"
+    },
+    {
+        "name": "2023 Panini Immaculate Collection",
+        "sid": "404445"
+    },
+    {
+        "name": "2023 Panini Impeccable",
+        "sid": "402570"
+    },
+    {
+        "name": "2023 Panini Legacy",
+        "sid": "373718"
+    },
+    {
+        "name": "2023 Panini Limited",
+        "sid": "414433"
+    },
+    {
+        "name": "2023 Panini Luminance",
+        "sid": "368298"
+    },
+    {
+        "name": "2023 Panini Mosaic",
+        "sid": "381249"
+    },
+    {
+        "name": "2023 Panini National Treasures",
+        "sid": "443935"
+    },
+    {
+        "name": "2023 Panini Obsidian",
+        "sid": "404444"
+    },
+    {
+        "name": "2023 Panini One",
+        "sid": "427038"
+    },
+    {
+        "name": "2023 Panini Origins",
+        "sid": "382184"
+    },
+    {
+        "name": "2023 Panini Phoenix",
+        "sid": "393734"
+    },
+    {
+        "name": "2023 Panini Plates & Patches",
+        "sid": "372368"
+    },
+    {
+        "name": "2023 Panini Prestige",
+        "sid": "394634"
+    },
+    {
+        "name": "2023 Panini Prizm",
+        "sid": "394629"
+    },
+    {
+        "name": "2023 Panini Rookies & Stars",
+        "sid": "402571"
+    },
+    {
+        "name": "2023 Panini Select",
+        "sid": "435441"
+    },
+    {
+        "name": "2023 Panini Spectra",
+        "sid": "402572"
+    },
+    {
+        "name": "2023 Panini Zenith",
+        "sid": "403714"
+    },
+    {
+        "name": "2023 Score",
+        "sid": "372360"
+    },
+    {
+        "name": "2023 Topps Composite",
+        "sid": "442976"
+    },
+    {
+        "name": "2023 Topps Motif",
+        "sid": "450964"
+    },
+    {
+        "name": "2023 Upper Deck USFL",
+        "sid": "380616"
+    },
+    {
+        "name": "2023 Upper Deck USFL Season Preview",
+        "sid": "376814"
+    },
+    {
+        "name": "2023 JOGO CFL Alumni Series 39",
+        "sid": "394345"
+    },
+    {
+        "name": "2023 JOGO CFL Alumni Series 40",
+        "sid": "394536"
+    },
+    {
+        "name": "2023 JOGO CFL Alumni Series 41",
+        "sid": "394580"
+    },
+    {
+        "name": "2023 JOGO CFL Alumni Series 42",
+        "sid": "394982"
+    },
+    {
+        "name": "2023 SP Game Used CFL",
+        "sid": "421334"
+    },
+    {
+        "name": "2023 Upper Deck CFL",
+        "sid": "387695"
+    },
+    {
+        "name": "2023 Bowman U Now",
+        "sid": "385498"
+    },
+    {
+        "name": "2023 Bowman University Alabama Crimson Tide",
+        "sid": "382183"
+    },
+    {
+        "name": "2023 Bowman University Best",
+        "sid": "405248"
+    },
+    {
+        "name": "2023 Bowman University Chrome",
+        "sid": "386284"
+    },
+    {
+        "name": "2023 Bowman University Chrome Sapphire",
+        "sid": "401608"
+    },
+    {
+        "name": "2023 Leaf Draft",
+        "sid": "368297"
+    },
+    {
+        "name": "2023 Leaf Exotic",
+        "sid": "361303"
+    },
+    {
+        "name": "2023 Leaf Metal",
+        "sid": "357081"
+    },
+    {
+        "name": "2023 Leaf Signature Series",
+        "sid": "361302"
+    },
+    {
+        "name": "2023 Leaf Trinity",
+        "sid": "379618"
+    },
+    {
+        "name": "2023 Leaf Trinity (Mega Box)",
+        "sid": "448353"
+    },
+    {
+        "name": "2023 Leaf Vivid",
+        "sid": "375190"
+    },
+    {
+        "name": "2023 ONIT Athlete Alabama Crimson Tide",
+        "sid": "396551"
+    },
+    {
+        "name": "2023 ONIT Athlete Auburn Tigers",
+        "sid": "406544"
+    },
+    {
+        "name": "2023 ONIT Athlete Baylor Bears",
+        "sid": "406562"
+    },
+    {
+        "name": "2023 ONIT Athlete Boise State Broncos",
+        "sid": "407513"
+    },
+    {
+        "name": "2023 ONIT Athlete BYU Cougars",
+        "sid": "404642"
+    },
+    {
+        "name": "2023 ONIT Athlete California Golden Bears",
+        "sid": "406543"
+    },
+    {
+        "name": "2023 ONIT Athlete Colorado Buffaloes",
+        "sid": "400159"
+    },
+    {
+        "name": "2023 ONIT Athlete Florida Gators",
+        "sid": "395285"
+    },
+    {
+        "name": "2023 ONIT Athlete Florida State Seminoles",
+        "sid": "396552"
+    },
+    {
+        "name": "2023 ONIT Athlete Fresno State Bulldogs",
+        "sid": "406542"
+    },
+    {
+        "name": "2023 ONIT Athlete Michigan State Spartans",
+        "sid": "406547"
+    },
+    {
+        "name": "2023 ONIT Athlete Mississippi State Bulldogs",
+        "sid": "405589"
+    },
+    {
+        "name": "2023 ONIT Athlete Missouri Tigers",
+        "sid": "406545"
+    },
+    {
+        "name": "2023 ONIT Athlete NC State Wolfpack",
+        "sid": "406561"
+    },
+    {
+        "name": "2023 ONIT Athlete Nebraska Cornhuskers",
+        "sid": "401167"
+    },
+    {
+        "name": "2023 ONIT Athlete Ohio State Buckeyes",
+        "sid": "397635"
+    },
+    {
+        "name": "2023 ONIT Athlete Oklahoma Sooners",
+        "sid": "406030"
+    },
+    {
+        "name": "2023 ONIT Athlete Oregon State Beavers",
+        "sid": "406481"
+    },
+    {
+        "name": "2023 ONIT Athlete TCU Horned Frogs",
+        "sid": "399178"
+    },
+    {
+        "name": "2023 ONIT Athlete Tennessee Volunteers",
+        "sid": "406480"
+    },
+    {
+        "name": "2023 ONIT Athlete Texas Longhorns",
+        "sid": "402844"
+    },
+    {
+        "name": "2023 ONIT Athlete Texas Tech Red Raiders",
+        "sid": "406548"
+    },
+    {
+        "name": "2023 ONIT Athlete Utah Utes",
+        "sid": "406546"
+    },
+    {
+        "name": "2023 ONIT Athlete Washington Huskies",
+        "sid": "406479"
+    },
+    {
+        "name": "2023 ONIT Athlete West Virginia Mountaineers",
+        "sid": "399656"
+    },
+    {
+        "name": "2023 Panini Chronicles Draft Picks",
+        "sid": "361300"
+    },
+    {
+        "name": "2023 Panini Flawless Collegiate",
+        "sid": "383199"
+    },
+    {
+        "name": "2023 Panini Immaculate Collection Collegiate",
+        "sid": "376824"
+    },
+    {
+        "name": "2023 Panini Mosaic Draft Picks",
+        "sid": "381734"
+    },
+    {
+        "name": "2023 Panini National Treasures Collegiate",
+        "sid": "384957"
+    },
+    {
+        "name": "2023 Panini Prizm Draft Picks",
+        "sid": "376825"
+    },
+    {
+        "name": "2023 Panini Select Draft Picks",
+        "sid": "361822"
+    },
+    {
+        "name": "2023 Pro Set Metal",
+        "sid": "397298"
+    },
+    {
+        "name": "2023 SAGE Artistry",
+        "sid": "373719"
+    },
+    {
+        "name": "2023 SAGE Aspire",
+        "sid": "360178"
+    },
+    {
+        "name": "2023 SAGE HIT",
+        "sid": "338928"
+    },
+    {
+        "name": "2023 SMU Mustangs",
+        "sid": "398379"
+    },
+    {
+        "name": "2023 Valiant Michigan Wolverines",
+        "sid": "405249"
+    },
+    {
+        "name": "2023 Wild Card 5 Card Draw",
+        "sid": "388488"
+    },
+    {
+        "name": "2023 Wild Card Matte",
+        "sid": "403079"
+    },
+    {
+        "name": "2023 Wild Card Alumination Draft",
+        "sid": "373968"
+    },
+    {
+        "name": "2023 Wild Card Alumination Draft Retail",
+        "sid": "415949"
+    },
+    {
+        "name": "2023 Wild Card Wildchrome Draft",
+        "sid": "375189"
+    },
+    {
+        "name": "2023 Panini European League of Football",
+        "sid": "385263"
+    },
+    {
+        "name": "2023 Panini Rhein Fire",
+        "sid": "391155"
+    },
+    {
+        "name": "2023 Aamango NFL Legends Trump Game",
+        "sid": "425385"
+    },
+    {
+        "name": "2023 Leaf Eclectic",
+        "sid": "394630"
+    },
+    {
+        "name": "2023 Leaf News Flash",
+        "sid": "367817"
+    },
+    {
+        "name": "2023 Onyx Vintage Football",
+        "sid": "406347"
+    },
+    {
+        "name": "2023 Panini NFL Sticker & Card Collection",
+        "sid": "390914"
+    },
+    {
+        "name": "2023 Panini Pro Football Hall of Fame Class of 2023",
+        "sid": "380548"
+    },
+    {
+        "name": "2023 Pro Set Pure",
+        "sid": "406045"
+    },
+    {
+        "name": "2023 Wild Card 5 Card Draw Stacked Deck",
+        "sid": "429310"
+    },
+    {
+        "name": "2023 Wild Card 5 Card Draw Stacked Deck Promos",
+        "sid": "431426"
+    },
+    {
+        "name": "2023 Wild Card 7 Card Studs",
+        "sid": "403080"
+    },
+    {
+        "name": "2023 Wild Card 7 Card Studs Football Promo",
+        "sid": "403302"
+    },
+    {
+        "name": "2023 Wild Card Alumination Brock Purdy Edition",
+        "sid": "420845"
+    },
+    {
+        "name": "2023 Wild Card Alumination Comix Black Label CJ Stroud Edition",
+        "sid": "443964"
+    },
+    {
+        "name": "2023 Wild Card Alumination Comix ROY CJ Stroud Edition",
+        "sid": "420846"
+    },
+    {
+        "name": "2023 Wild Card Alumination Dino Might",
+        "sid": "444714"
+    },
+    {
+        "name": "2023 Wild Card Alumination Football Rookie Card CJ Stroud Red & Blue Edition",
+        "sid": "432968"
+    },
+    {
+        "name": "2023 Wild Card Alumination Football Rookie Card Edition",
+        "sid": "420844"
+    },
+    {
+        "name": "2023 Wild Card American Metallix Pro-Look National Promo Exclusive",
+        "sid": "459574"
+    },
+    {
+        "name": "2023 Wild Card Automania Pro-Look Hobby",
+        "sid": "411501"
+    },
+    {
+        "name": "2023 Wild Card Automania Pro-Look Hobbybox Exclusive",
+        "sid": "411475"
+    },
+    {
+        "name": "2023 Wild Card Football Rookie Card TAG Nationals Exclusive",
+        "sid": "432883"
+    },
+    {
+        "name": "2023 Wild Card Matte Bryce Huff Whatnot Exclusive",
+        "sid": "456743"
+    },
+    {
+        "name": "2023 Wild Card Matte Cracker Barrel Exclusive",
+        "sid": "414900"
+    },
+    {
+        "name": "2023 Wild Card Matte Tommy Devito Exclusive",
+        "sid": "432740"
+    },
+    {
+        "name": "2023 Wild Card Matte Zay Flowers/Jayden Reed/Chase Brown/Jaylen Warren Exclusive",
+        "sid": "Chase-Brown"
+    },
+    {
+        "name": "2023 Wild Card QB1 On the Clock Excusive",
+        "sid": "436722"
+    },
+    {
+        "name": "2023 Wild Card Wildchrome Pro Look Football",
+        "sid": "420848"
+    },
+    {
+        "name": "2023 Leaf Metal Thanksgiving Edition Autographs",
+        "sid": "401775"
+    },
+    {
+        "name": "2023 Leaf Welcome To",
+        "sid": "368157"
+    },
+    {
+        "name": "2023 Panini Instant Kansas City Chiefs Super Bowl LVIII Champions",
+        "sid": "422811"
+    },
+    {
+        "name": "2023 Panini Instant NFL",
+        "sid": "392534"
+    },
+    {
+        "name": "2023 Panini Instant NFL Black & White Rookies",
+        "sid": "434380"
+    },
+    {
+        "name": "2023 Panini Instant NFL Captains",
+        "sid": "426339"
+    },
+    {
+        "name": "2023 Panini Instant NFL Draft Night",
+        "sid": "369633"
+    },
+    {
+        "name": "2023 Panini Instant NFL My City",
+        "sid": "429056"
+    },
+    {
+        "name": "2023 Panini Instant NFL Rated Rookie Retro",
+        "sid": "434381"
+    },
+    {
+        "name": "2023 Panini Instant NFL RPS First Look",
+        "sid": "370762"
+    },
+    {
+        "name": "2023 Panini Instant NFL RPS First Look Autographs",
+        "sid": "370770"
+    },
+    {
+        "name": "2023 Panini Instant Studio Rookies",
+        "sid": "433655"
+    },
+    {
+        "name": "2023 Panini Instant Supernova",
+        "sid": "438360"
+    },
+    {
+        "name": "2023 Panini Prizm Throwback",
+        "sid": "391796"
+    },
+    {
+        "name": "2023 Topps Now",
+        "sid": "361721"
+    },
+    {
+        "name": "2023 Panini National Convention VIP",
+        "sid": "377897"
+    },
+    {
+        "name": "2023 Panini NFL Player of the Day",
+        "sid": "415723"
+    },
+    {
+        "name": "2023 Topps Bowman University International Trading Card Day",
+        "sid": "380051"
+    },
+    {
+        "name": "2023 Topps National Convention Wrapper Redemption",
+        "sid": "385084"
+    },
+    {
+        "name": "2023 Wild Card National Matte",
+        "sid": "394918"
+    }
+]

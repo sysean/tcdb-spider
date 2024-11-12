@@ -1,0 +1,366 @@
+[
+    {
+        "name": "2004 Bazooka",
+        "sid": "4678"
+    },
+    {
+        "name": "2004 Bowman",
+        "sid": "4642"
+    },
+    {
+        "name": "2004 Bowman Chrome",
+        "sid": "4643"
+    },
+    {
+        "name": "2004 Bowman's Best",
+        "sid": "4644"
+    },
+    {
+        "name": "2004 Donruss Classics",
+        "sid": "4645"
+    },
+    {
+        "name": "2004 Donruss Elite",
+        "sid": "8438"
+    },
+    {
+        "name": "2004 Finest",
+        "sid": "4649"
+    },
+    {
+        "name": "2004 Flair",
+        "sid": "4651"
+    },
+    {
+        "name": "2004 Fleer Authentix",
+        "sid": "4650"
+    },
+    {
+        "name": "2004 Fleer E-X",
+        "sid": "4648"
+    },
+    {
+        "name": "2004 Fleer Genuine",
+        "sid": "4652"
+    },
+    {
+        "name": "2004 Fleer Greats of the Game",
+        "sid": "4653"
+    },
+    {
+        "name": "2004 Fleer Hot Prospects",
+        "sid": "8440"
+    },
+    {
+        "name": "2004 Fleer Inscribed",
+        "sid": "4654"
+    },
+    {
+        "name": "2004 Fleer Platinum",
+        "sid": "4655"
+    },
+    {
+        "name": "2004 Fleer Showcase",
+        "sid": "4656"
+    },
+    {
+        "name": "2004 Fleer Sweet Sigs",
+        "sid": "4657"
+    },
+    {
+        "name": "2004 Fleer Tradition",
+        "sid": "4658"
+    },
+    {
+        "name": "2004 Leaf Certified Materials",
+        "sid": "4659"
+    },
+    {
+        "name": "2004 Leaf Limited",
+        "sid": "4660"
+    },
+    {
+        "name": "2004 Leaf Rookies & Stars",
+        "sid": "4646"
+    },
+    {
+        "name": "2004 Leaf Rookies & Stars Longevity",
+        "sid": "4647"
+    },
+    {
+        "name": "2004 Playoff Absolute Memorabilia",
+        "sid": "4661"
+    },
+    {
+        "name": "2004 Playoff Contenders",
+        "sid": "4662"
+    },
+    {
+        "name": "2004 Playoff Hogg Heaven",
+        "sid": "4663"
+    },
+    {
+        "name": "2004 Playoff Honors",
+        "sid": "4664"
+    },
+    {
+        "name": "2004 Playoff Prestige",
+        "sid": "4665"
+    },
+    {
+        "name": "2004 Playoff Prime Signatures",
+        "sid": "4666"
+    },
+    {
+        "name": "2004 Score",
+        "sid": "4672"
+    },
+    {
+        "name": "2004 SkyBox LE",
+        "sid": "4673"
+    },
+    {
+        "name": "2004 SP Authentic",
+        "sid": "4674"
+    },
+    {
+        "name": "2004 SP Game Used",
+        "sid": "4675"
+    },
+    {
+        "name": "2004 SPx",
+        "sid": "4676"
+    },
+    {
+        "name": "2004 Topps",
+        "sid": "4677"
+    },
+    {
+        "name": "2004 Topps 1st Edition",
+        "sid": "39153"
+    },
+    {
+        "name": "2004 Topps All-Time Fan Favorites",
+        "sid": "4681"
+    },
+    {
+        "name": "2004 Topps Chrome",
+        "sid": "4679"
+    },
+    {
+        "name": "2004 Topps Draft Picks & Prospects",
+        "sid": "4680"
+    },
+    {
+        "name": "2004 Topps Pristine",
+        "sid": "4682"
+    },
+    {
+        "name": "2004 Topps Signature",
+        "sid": "4683"
+    },
+    {
+        "name": "2004 Topps Total",
+        "sid": "4684"
+    },
+    {
+        "name": "2004 Ultra",
+        "sid": "4692"
+    },
+    {
+        "name": "2004 Upper Deck",
+        "sid": "4693"
+    },
+    {
+        "name": "2004 Upper Deck Diamond Collection All-Star Lineup",
+        "sid": "4685"
+    },
+    {
+        "name": "2004 Upper Deck Diamond Pro Sigs",
+        "sid": "8439"
+    },
+    {
+        "name": "2004 Upper Deck Finite",
+        "sid": "4686"
+    },
+    {
+        "name": "2004 Upper Deck Foundations",
+        "sid": "4687"
+    },
+    {
+        "name": "2004 Upper Deck Legends",
+        "sid": "4688"
+    },
+    {
+        "name": "2004 Upper Deck Power Up",
+        "sid": "4689"
+    },
+    {
+        "name": "2004 Upper Deck Reflections",
+        "sid": "4690"
+    },
+    {
+        "name": "2004 Upper Deck Sweet Spot",
+        "sid": "4691"
+    },
+    {
+        "name": "2004 Upper Deck Ultimate Collection",
+        "sid": "9398"
+    },
+    {
+        "name": "2004 Upper Deck Rookie Premiere Box Set",
+        "sid": "8441"
+    },
+    {
+        "name": "2004 JOGO",
+        "sid": "98817"
+    },
+    {
+        "name": "2004 Pacific CFL",
+        "sid": "159353"
+    },
+    {
+        "name": "2004 Alltel Nebraska Cornhuskers Schedules",
+        "sid": "166778"
+    },
+    {
+        "name": "2004 High Step Washington Huskies",
+        "sid": "339361"
+    },
+    {
+        "name": "2004 KKEA Hawaii Rainbow Warriors",
+        "sid": "246606"
+    },
+    {
+        "name": "2004 Marshall Thundering Herd Fort Worth Bowl",
+        "sid": "387229"
+    },
+    {
+        "name": "2004 Nebraska Bankers Association Nebraska Cornhuskers Schedules",
+        "sid": "166779"
+    },
+    {
+        "name": "2004 North Dakota State Bison",
+        "sid": "247508"
+    },
+    {
+        "name": "2004 Press Pass",
+        "sid": "4667"
+    },
+    {
+        "name": "2004 Press Pass SE",
+        "sid": "4668"
+    },
+    {
+        "name": "2004 SAGE HIT",
+        "sid": "4670"
+    },
+    {
+        "name": "2004 Senior Bowl",
+        "sid": "114203"
+    },
+    {
+        "name": "2004 The Second Mile Penn State Nittany Lions: Fall Edition",
+        "sid": "250164"
+    },
+    {
+        "name": "2004 Wisconsin Badgers Program Cards",
+        "sid": "131271"
+    },
+    {
+        "name": "2004-09 TK Legacy Ohio State Buckeyes",
+        "sid": "76245"
+    },
+    {
+        "name": "2004 SAGE",
+        "sid": "4669"
+    },
+    {
+        "name": "2004 SAGE Jersey Update",
+        "sid": "4671"
+    },
+    {
+        "name": "2004 Coca-Cola Houston Texans",
+        "sid": "404398"
+    },
+    {
+        "name": "2004 Miller Lite Beer Refs",
+        "sid": "286896"
+    },
+    {
+        "name": "2004 Big 33 Ohio High School",
+        "sid": "230805"
+    },
+    {
+        "name": "2004 Big 33 Pennsylvania High School",
+        "sid": "232029"
+    },
+    {
+        "name": "2004 Fleer Authentic Player Autographs",
+        "sid": "399166"
+    },
+    {
+        "name": "2004 Goal Line Hall of Fame Art Collection",
+        "sid": "158372"
+    },
+    {
+        "name": "2004 Hall of Fame Metallics",
+        "sid": "165389"
+    },
+    {
+        "name": "2004 Sun Superstar Quarterbacks Stickers",
+        "sid": "193749"
+    },
+    {
+        "name": "2004 Topps Super Bowl XXXVIII Card Show",
+        "sid": "39167"
+    },
+    {
+        "name": "2004 Ultra Hummer H2",
+        "sid": "39271"
+    },
+    {
+        "name": "2004 Upper Deck Dunkin' Donuts New York Giants",
+        "sid": "130483"
+    },
+    {
+        "name": "2004 Topps eTopps",
+        "sid": "108689"
+    },
+    {
+        "name": "2004 Topps eTopps Event Series Postseason",
+        "sid": "283121"
+    },
+    {
+        "name": "2004 Donruss Playoff Super Bowl XXXVIII",
+        "sid": "399189"
+    },
+    {
+        "name": "2004 Fleer/Playoff/Topps/Upper Deck Houston Texans Super Bowl XXXVIII Promos",
+        "sid": "Topps"
+    },
+    {
+        "name": "2004 NFLPA Player of the Day",
+        "sid": "73799"
+    },
+    {
+        "name": "2004 Upper Deck ArenaBowl XVIII",
+        "sid": "400173"
+    },
+    {
+        "name": "2004 Green Bay Packers Police",
+        "sid": "121461"
+    },
+    {
+        "name": "2004 Tampa Bay Buccaneers",
+        "sid": "346889"
+    },
+    {
+        "name": "2004 Donruss Playoff National Cleveland Browns",
+        "sid": "122865"
+    },
+    {
+        "name": "2004 Fleer Tradition National Cleveland Browns",
+        "sid": "105523"
+    }
+]

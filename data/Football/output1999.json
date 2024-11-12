@@ -1,0 +1,454 @@
+[
+    {
+        "name": "1999 Bowman",
+        "sid": "4274"
+    },
+    {
+        "name": "1999 Bowman Chrome",
+        "sid": "4275"
+    },
+    {
+        "name": "1999 Bowman's Best",
+        "sid": "4276"
+    },
+    {
+        "name": "1999 Collector's Edge Advantage",
+        "sid": "4278"
+    },
+    {
+        "name": "1999 Collector's Edge First Place",
+        "sid": "4280"
+    },
+    {
+        "name": "1999 Collector's Edge Fury",
+        "sid": "4281"
+    },
+    {
+        "name": "1999 Collector's Edge Masters",
+        "sid": "4282"
+    },
+    {
+        "name": "1999 Collector's Edge Odyssey",
+        "sid": "4283"
+    },
+    {
+        "name": "1999 Collector's Edge Supreme",
+        "sid": "4284"
+    },
+    {
+        "name": "1999 Collector's Edge Triumph",
+        "sid": "4286"
+    },
+    {
+        "name": "1999 Donruss",
+        "sid": "4287"
+    },
+    {
+        "name": "1999 Donruss Elite",
+        "sid": "4289"
+    },
+    {
+        "name": "1999 Donruss Preferred QBC",
+        "sid": "9384"
+    },
+    {
+        "name": "1999 Finest",
+        "sid": "4291"
+    },
+    {
+        "name": "1999 Flair Showcase",
+        "sid": "4294"
+    },
+    {
+        "name": "1999 Fleer Focus",
+        "sid": "4297"
+    },
+    {
+        "name": "1999 Fleer Mystique",
+        "sid": "4299"
+    },
+    {
+        "name": "1999 Fleer Tradition",
+        "sid": "4296"
+    },
+    {
+        "name": "1999 Leaf Certified",
+        "sid": "4302"
+    },
+    {
+        "name": "1999 Leaf Rookies & Stars",
+        "sid": "4304"
+    },
+    {
+        "name": "1999 Pacific",
+        "sid": "4307"
+    },
+    {
+        "name": "1999 Pacific Aurora",
+        "sid": "4308"
+    },
+    {
+        "name": "1999 Pacific Crown Royale",
+        "sid": "4310"
+    },
+    {
+        "name": "1999 Pacific Omega",
+        "sid": "4311"
+    },
+    {
+        "name": "1999 Pacific Paramount",
+        "sid": "4312"
+    },
+    {
+        "name": "1999 Pacific Prism",
+        "sid": "4314"
+    },
+    {
+        "name": "1999 Pacific Revolution",
+        "sid": "4315"
+    },
+    {
+        "name": "1999 Playoff Absolute EXP",
+        "sid": "4316"
+    },
+    {
+        "name": "1999 Playoff Absolute SSD",
+        "sid": "4317"
+    },
+    {
+        "name": "1999 Playoff Contenders SSD",
+        "sid": "4318"
+    },
+    {
+        "name": "1999 Playoff Momentum SSD",
+        "sid": "4320"
+    },
+    {
+        "name": "1999 Playoff Prestige EXP",
+        "sid": "4324"
+    },
+    {
+        "name": "1999 Playoff Prestige SSD",
+        "sid": "4326"
+    },
+    {
+        "name": "1999 Score",
+        "sid": "4330"
+    },
+    {
+        "name": "1999 Score Supplemental",
+        "sid": "4332"
+    },
+    {
+        "name": "1999 SkyBox Dominion",
+        "sid": "4333"
+    },
+    {
+        "name": "1999 SkyBox E-X Century",
+        "sid": "4290"
+    },
+    {
+        "name": "1999 SkyBox Metal Universe",
+        "sid": "4305"
+    },
+    {
+        "name": "1999 SkyBox Molten Metal",
+        "sid": "4334"
+    },
+    {
+        "name": "1999 SkyBox Premium",
+        "sid": "4335"
+    },
+    {
+        "name": "1999 SP Authentic",
+        "sid": "4336"
+    },
+    {
+        "name": "1999 SP Signature",
+        "sid": "4337"
+    },
+    {
+        "name": "1999 SPx",
+        "sid": "4340"
+    },
+    {
+        "name": "1999 Stadium Club",
+        "sid": "4341"
+    },
+    {
+        "name": "1999 Stadium Club Chrome",
+        "sid": "4342"
+    },
+    {
+        "name": "1999 Topps",
+        "sid": "4343"
+    },
+    {
+        "name": "1999 Topps Chrome",
+        "sid": "4344"
+    },
+    {
+        "name": "1999 Topps Gold Label",
+        "sid": "4346"
+    },
+    {
+        "name": "1999 Topps Season Opener",
+        "sid": "4347"
+    },
+    {
+        "name": "1999 Topps Stars",
+        "sid": "4348"
+    },
+    {
+        "name": "1999 UD Ionix",
+        "sid": "4352"
+    },
+    {
+        "name": "1999 Ultra",
+        "sid": "4354"
+    },
+    {
+        "name": "1999 Upper Deck",
+        "sid": "4355"
+    },
+    {
+        "name": "1999 Upper Deck Black Diamond",
+        "sid": "4356"
+    },
+    {
+        "name": "1999 Upper Deck Century Legends",
+        "sid": "4357"
+    },
+    {
+        "name": "1999 Upper Deck Encore",
+        "sid": "4358"
+    },
+    {
+        "name": "1999 Upper Deck HoloGrFX",
+        "sid": "4359"
+    },
+    {
+        "name": "1999 Upper Deck MVP",
+        "sid": "4360"
+    },
+    {
+        "name": "1999 Upper Deck Ovation",
+        "sid": "4361"
+    },
+    {
+        "name": "1999 Upper Deck PowerDeck",
+        "sid": "4362"
+    },
+    {
+        "name": "1999 Upper Deck Retro",
+        "sid": "4364"
+    },
+    {
+        "name": "1999 Upper Deck Victory",
+        "sid": "4365"
+    },
+    {
+        "name": "1999 Collector's Edge Super Bowl XXXIII",
+        "sid": "104602"
+    },
+    {
+        "name": "1999 Upper Deck Super Bowl XXXIII",
+        "sid": "35595"
+    },
+    {
+        "name": "1999 Gametime Magazine Saan Winnipeg Blue Bombers",
+        "sid": "316484"
+    },
+    {
+        "name": "1999 JOGO",
+        "sid": "165923"
+    },
+    {
+        "name": "1999 JOGO Boston Pizza",
+        "sid": "165739"
+    },
+    {
+        "name": "1999 Coca-Cola/Meijer Notre Dame: A Century of Greatness",
+        "sid": "1999-Coca-Cola"
+    },
+    {
+        "name": "1999 Cotton Bowl Hall of Fame",
+        "sid": "243924"
+    },
+    {
+        "name": "1999 Florida State Seminoles",
+        "sid": "244237"
+    },
+    {
+        "name": "1999 JOGO Arkansas Razorbacks Coaches",
+        "sid": "243161"
+    },
+    {
+        "name": "1999 Lincoln Star Nebraska Cornhuskers Schedules",
+        "sid": "166761"
+    },
+    {
+        "name": "1999 Marshall Thundering Herd Heisman Trophy Candidate",
+        "sid": "387215"
+    },
+    {
+        "name": "1999 Nebraska Bankers Association Nebraska Cornhuskers Schedules",
+        "sid": "166762"
+    },
+    {
+        "name": "1999 Nebraska Cornhuskers Senior Set (4th Edition)",
+        "sid": "116768"
+    },
+    {
+        "name": "1999 Notre Dame Legendary Irish",
+        "sid": "246869"
+    },
+    {
+        "name": "1999 Oregon State Beavers Smokey",
+        "sid": "245978"
+    },
+    {
+        "name": "1999 Press Pass",
+        "sid": "4328"
+    },
+    {
+        "name": "1999 Senior Bowl",
+        "sid": "114201"
+    },
+    {
+        "name": "1999 The Second Mile Penn State Nittany Lions: Fall Edition",
+        "sid": "249923"
+    },
+    {
+        "name": "1999 Washington Huskies",
+        "sid": "449100"
+    },
+    {
+        "name": "1999 SAGE",
+        "sid": "4329"
+    },
+    {
+        "name": "1999 Burger King Minnesota Vikings",
+        "sid": "97360"
+    },
+    {
+        "name": "1999 King B Discs",
+        "sid": "73562"
+    },
+    {
+        "name": "1999 Totino's Pizza",
+        "sid": "129921"
+    },
+    {
+        "name": "1999 Big 33 Ohio High School",
+        "sid": "166809"
+    },
+    {
+        "name": "1999 Big 33 Pennsylvania High School",
+        "sid": "250379"
+    },
+    {
+        "name": "1999 Crown Pro Self-Inking Stamper Cards Millenium Series I",
+        "sid": "182125"
+    },
+    {
+        "name": "1999 Finest Pro Bowl Treasure Hunt",
+        "sid": "213757"
+    },
+    {
+        "name": "1999 Fleer NFL Players Awards Banquet Unsung Heroes",
+        "sid": "35173"
+    },
+    {
+        "name": "1999 Fleer Tradition White Rose Collectibles Diecast Cards",
+        "sid": "289424"
+    },
+    {
+        "name": "1999 Goal Line Hall of Fame Art Collection",
+        "sid": "158367"
+    },
+    {
+        "name": "1999 Hall of Fame Metallics",
+        "sid": "165384"
+    },
+    {
+        "name": "1999 Hasbro Starting Lineup Cards",
+        "sid": "91987"
+    },
+    {
+        "name": "1999 Hasbro Starting Lineup Cards Classic Doubles",
+        "sid": "149783"
+    },
+    {
+        "name": "1999 Hasbro Starting Lineup Cards Classic Doubles Special Edition QB Club",
+        "sid": "129644"
+    },
+    {
+        "name": "1999 Hasbro Starting Lineup Cards Extended Series",
+        "sid": "328132"
+    },
+    {
+        "name": "1999 Hasbro Starting Lineup Cards Hall of Fame Legends",
+        "sid": "397183"
+    },
+    {
+        "name": "1999 Hasbro Starting Lineup Cards Starting Lineup Convention",
+        "sid": "327617"
+    },
+    {
+        "name": "1999 Pacific Backyard Football",
+        "sid": "35210"
+    },
+    {
+        "name": "1999 Sports Illustrated",
+        "sid": "4339"
+    },
+    {
+        "name": "1999 Topps Action Flats",
+        "sid": "253646"
+    },
+    {
+        "name": "1999-01 The Danbury Mint 22K Gold Legends",
+        "sid": "114432"
+    },
+    {
+        "name": "1999 Collector's Edge Excalibur Uncut Sheet",
+        "sid": "386484"
+    },
+    {
+        "name": "1999 Collector's Edge Peyton Manning Game Gear Promos",
+        "sid": "95787"
+    },
+    {
+        "name": "1999 Playoff Barry Sanders / Ricky Williams / Terrell Davis Promo",
+        "sid": "-Ricky-Williams-"
+    },
+    {
+        "name": "1999 Chicago Bears Fan Convention",
+        "sid": "232221"
+    },
+    {
+        "name": "1999 Giant Eagle Cleveland Browns",
+        "sid": "122248"
+    },
+    {
+        "name": "1999 Green Bay Packers Police",
+        "sid": "118923"
+    },
+    {
+        "name": "1999 Minnesota Vikings Police",
+        "sid": "195571"
+    },
+    {
+        "name": "1999 New Jersey Red Dogs (AFL)",
+        "sid": "443486"
+    },
+    {
+        "name": "1999 Norwegian Cruise Line Miami Dolphins",
+        "sid": "154980"
+    },
+    {
+        "name": "1999 Collector's Edge Cleveland Browns",
+        "sid": "205313"
+    }
+]

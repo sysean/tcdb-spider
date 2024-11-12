@@ -1,0 +1,498 @@
+[
+    {
+        "name": "2000 Bowman",
+        "sid": "4366"
+    },
+    {
+        "name": "2000 Bowman Chrome",
+        "sid": "4367"
+    },
+    {
+        "name": "2000 Bowman Reserve",
+        "sid": "9385"
+    },
+    {
+        "name": "2000 Bowman's Best",
+        "sid": "4368"
+    },
+    {
+        "name": "2000 Collector's Edge EG",
+        "sid": "9386"
+    },
+    {
+        "name": "2000 Collector's Edge Masters",
+        "sid": "4369"
+    },
+    {
+        "name": "2000 Collector's Edge Odyssey",
+        "sid": "4370"
+    },
+    {
+        "name": "2000 Collector's Edge Peyton Manning Destiny",
+        "sid": "35749"
+    },
+    {
+        "name": "2000 Collector's Edge Supreme",
+        "sid": "4371"
+    },
+    {
+        "name": "2000 Collector's Edge T3",
+        "sid": "4372"
+    },
+    {
+        "name": "2000 Donruss",
+        "sid": "4374"
+    },
+    {
+        "name": "2000 Donruss Elite",
+        "sid": "4375"
+    },
+    {
+        "name": "2000 Donruss Preferred",
+        "sid": "4377"
+    },
+    {
+        "name": "2000 Finest",
+        "sid": "4380"
+    },
+    {
+        "name": "2000 Fleer E-X",
+        "sid": "4378"
+    },
+    {
+        "name": "2000 Fleer Focus",
+        "sid": "4382"
+    },
+    {
+        "name": "2000 Fleer Gamers",
+        "sid": "4383"
+    },
+    {
+        "name": "2000 Fleer Greats of the Game",
+        "sid": "4386"
+    },
+    {
+        "name": "2000 Fleer Mystique",
+        "sid": "4388"
+    },
+    {
+        "name": "2000 Fleer Showcase",
+        "sid": "4389"
+    },
+    {
+        "name": "2000 Fleer Tradition",
+        "sid": "4381"
+    },
+    {
+        "name": "2000 Fleer Tradition Glossy",
+        "sid": "4385"
+    },
+    {
+        "name": "2000 Impact",
+        "sid": "4390"
+    },
+    {
+        "name": "2000 Leaf Certified",
+        "sid": "4391"
+    },
+    {
+        "name": "2000 Leaf Limited",
+        "sid": "4392"
+    },
+    {
+        "name": "2000 Leaf Rookies & Stars",
+        "sid": "4393"
+    },
+    {
+        "name": "2000 Metal",
+        "sid": "4394"
+    },
+    {
+        "name": "2000 Pacific",
+        "sid": "4395"
+    },
+    {
+        "name": "2000 Pacific Aurora",
+        "sid": "4396"
+    },
+    {
+        "name": "2000 Pacific Crown Royale",
+        "sid": "4398"
+    },
+    {
+        "name": "2000 Pacific Omega",
+        "sid": "4400"
+    },
+    {
+        "name": "2000 Pacific Paramount",
+        "sid": "4401"
+    },
+    {
+        "name": "2000 Pacific Prism Prospects",
+        "sid": "4403"
+    },
+    {
+        "name": "2000 Pacific Private Stock",
+        "sid": "4405"
+    },
+    {
+        "name": "2000 Pacific Revolution",
+        "sid": "4406"
+    },
+    {
+        "name": "2000 Pacific Vanguard",
+        "sid": "4407"
+    },
+    {
+        "name": "2000 Playoff Absolute",
+        "sid": "4408"
+    },
+    {
+        "name": "2000 Playoff Contenders",
+        "sid": "4411"
+    },
+    {
+        "name": "2000 Playoff Momentum",
+        "sid": "4414"
+    },
+    {
+        "name": "2000 Playoff Prestige",
+        "sid": "4415"
+    },
+    {
+        "name": "2000 Quantum Leaf",
+        "sid": "4418"
+    },
+    {
+        "name": "2000 Score",
+        "sid": "4423"
+    },
+    {
+        "name": "2000 SkyBox",
+        "sid": "4424"
+    },
+    {
+        "name": "2000 SkyBox Dominion",
+        "sid": "4373"
+    },
+    {
+        "name": "2000 SP Authentic",
+        "sid": "4425"
+    },
+    {
+        "name": "2000 SPx",
+        "sid": "4426"
+    },
+    {
+        "name": "2000 Stadium Club",
+        "sid": "4427"
+    },
+    {
+        "name": "2000 Topps",
+        "sid": "4428"
+    },
+    {
+        "name": "2000 Topps Chrome",
+        "sid": "4429"
+    },
+    {
+        "name": "2000 Topps Gallery",
+        "sid": "4431"
+    },
+    {
+        "name": "2000 Topps Gold Label",
+        "sid": "4432"
+    },
+    {
+        "name": "2000 Topps Season Opener",
+        "sid": "4434"
+    },
+    {
+        "name": "2000 Topps Stars",
+        "sid": "4435"
+    },
+    {
+        "name": "2000 UD Graded",
+        "sid": "4436"
+    },
+    {
+        "name": "2000 UD Ionix",
+        "sid": "4437"
+    },
+    {
+        "name": "2000 Ultra",
+        "sid": "4439"
+    },
+    {
+        "name": "2000 Upper Deck",
+        "sid": "4440"
+    },
+    {
+        "name": "2000 Upper Deck Black Diamond",
+        "sid": "4441"
+    },
+    {
+        "name": "2000 Upper Deck Encore",
+        "sid": "4442"
+    },
+    {
+        "name": "2000 Upper Deck Gold Reserve",
+        "sid": "4443"
+    },
+    {
+        "name": "2000 Upper Deck Legends",
+        "sid": "4445"
+    },
+    {
+        "name": "2000 Upper Deck MVP",
+        "sid": "4446"
+    },
+    {
+        "name": "2000 Upper Deck Ovation",
+        "sid": "4447"
+    },
+    {
+        "name": "2000 Upper Deck Pros & Prospects",
+        "sid": "4448"
+    },
+    {
+        "name": "2000 Upper Deck Ultimate Victory",
+        "sid": "4449"
+    },
+    {
+        "name": "2000 Upper Deck Victory",
+        "sid": "4451"
+    },
+    {
+        "name": "2000 Upper Deck Vintage Preview",
+        "sid": "4450"
+    },
+    {
+        "name": "2000 Upper Deck Montana Master Collection",
+        "sid": "36319"
+    },
+    {
+        "name": "2000 Calgary Stampeders",
+        "sid": "303716"
+    },
+    {
+        "name": "2000 JOGO",
+        "sid": "165912"
+    },
+    {
+        "name": "2000 JOGO Hall of Fame E",
+        "sid": "165943"
+    },
+    {
+        "name": "2000 JOGO Hall of Fame F",
+        "sid": "165944"
+    },
+    {
+        "name": "2000 American Lung Association Purdue Boilermakers Drew Brees",
+        "sid": "243148"
+    },
+    {
+        "name": "2000 Conoco/Pizza Hut Oklahoma Sooners",
+        "sid": "2000-Conoco"
+    },
+    {
+        "name": "2000 Gatorade Miami Hurricanes",
+        "sid": "245731"
+    },
+    {
+        "name": "2000 Homeworks Unlimited Nebraska Cornhuskers All-Time Greats",
+        "sid": "179565"
+    },
+    {
+        "name": "2000 Lincoln Star Nebraska Cornhuskers Schedules",
+        "sid": "166382"
+    },
+    {
+        "name": "2000 Marshall Thundering Herd Motor City Bowl",
+        "sid": "387216"
+    },
+    {
+        "name": "2000 MET-Rx UCLA Bruins SGA",
+        "sid": "278976"
+    },
+    {
+        "name": "2000 Nebraska Bankers Association Nebraska Cornhuskers Schedules",
+        "sid": "166763"
+    },
+    {
+        "name": "2000 Oregon Ducks",
+        "sid": "249392"
+    },
+    {
+        "name": "2000 Press Pass",
+        "sid": "4417"
+    },
+    {
+        "name": "2000 Runza Nebraska Cornhuskers Husker Legends",
+        "sid": "166822"
+    },
+    {
+        "name": "2000 Senior Bowl",
+        "sid": "114202"
+    },
+    {
+        "name": "2000 The Second Mile Penn State Nittany Lions: Fall Edition",
+        "sid": "250079"
+    },
+    {
+        "name": "2000 Washington Huskies",
+        "sid": "340888"
+    },
+    {
+        "name": "2000 SAGE",
+        "sid": "4420"
+    },
+    {
+        "name": "2000 SAGE HIT",
+        "sid": "4421"
+    },
+    {
+        "name": "2000 Ruffles Queso Quarterback Club",
+        "sid": "196512"
+    },
+    {
+        "name": "2000 Advance Auto Parts Cleveland Browns",
+        "sid": "147668"
+    },
+    {
+        "name": "2000 APBA Super Stars",
+        "sid": "195191"
+    },
+    {
+        "name": "2000 Baltimore Sun Ravens Posters",
+        "sid": "355298"
+    },
+    {
+        "name": "2000 Big 33 Ohio High School",
+        "sid": "230804"
+    },
+    {
+        "name": "2000 Big 33 Pennsylvania High School",
+        "sid": "250381"
+    },
+    {
+        "name": "2000 Dorling Kindersley QB Club Stickers",
+        "sid": "178500"
+    },
+    {
+        "name": "2000 Finest Quest for the Finest",
+        "sid": "213759"
+    },
+    {
+        "name": "2000 Goal Line Hall of Fame Art Collection",
+        "sid": "158368"
+    },
+    {
+        "name": "2000 Goal Line HOF Autographs",
+        "sid": "244213"
+    },
+    {
+        "name": "2000 Goal Line HOF Autographs Gold",
+        "sid": "244214"
+    },
+    {
+        "name": "2000 Hall of Fame Metallics",
+        "sid": "165385"
+    },
+    {
+        "name": "2000 Hasbro Starting Lineup Cards",
+        "sid": "159467"
+    },
+    {
+        "name": "2000 Hasbro Starting Lineup Cards Classic Doubles Special Edition QB Club",
+        "sid": "328131"
+    },
+    {
+        "name": "2000 Hasbro Starting Lineup Cards Classic Doubles Super Bowl Series",
+        "sid": "328091"
+    },
+    {
+        "name": "2000 Hasbro Starting Lineup Cards Collector Club Edition",
+        "sid": "398301"
+    },
+    {
+        "name": "2000 Hasbro Starting Lineup Cards Extended Series",
+        "sid": "166817"
+    },
+    {
+        "name": "2000 Hasbro/Pacific Starting Lineup Cards Elite",
+        "sid": "2000-Hasbro"
+    },
+    {
+        "name": "2000 King B Discs",
+        "sid": "73563"
+    },
+    {
+        "name": "2000 Playoff NFL Players Awards Banquet Unsung Heroes",
+        "sid": "232481"
+    },
+    {
+        "name": "2000 Upper Deck Collectibles 22K John Elway Commemorative",
+        "sid": "36305"
+    },
+    {
+        "name": "2000 Upper Deck NFL Plays of the Week",
+        "sid": "115552"
+    },
+    {
+        "name": "2000 Topps eTopps",
+        "sid": "150037"
+    },
+    {
+        "name": "2000 Collector's Edge Super Bowl XXXIV",
+        "sid": "99805"
+    },
+    {
+        "name": "2000 NFLPA Super Bowl Player's Party",
+        "sid": "84647"
+    },
+    {
+        "name": "2000 Playoff Super Bowl XXXIV Card Show",
+        "sid": "90743"
+    },
+    {
+        "name": "2000 Upper Deck Black Diamond Super Bowl XXXIV Card Show",
+        "sid": "36329"
+    },
+    {
+        "name": "2000 Upper Deck PowerDeck Super Bowl XXXIV",
+        "sid": "36326"
+    },
+    {
+        "name": "2000 Upper Deck Super Bowl XXXIV Special Moments 3x5",
+        "sid": "36330"
+    },
+    {
+        "name": "2000 Coca-Cola Tennessee Titans",
+        "sid": "432796"
+    },
+    {
+        "name": "2000 Dol-Fan Club Dan Marino",
+        "sid": "299289"
+    },
+    {
+        "name": "2000 Green Bay Packers Police",
+        "sid": "118364"
+    },
+    {
+        "name": "2000 Iowa Barnstormers (AFL)",
+        "sid": "400295"
+    },
+    {
+        "name": "2000 Mercury Printers & Promotions Orlando Predators (AFL)",
+        "sid": "234573"
+    },
+    {
+        "name": "2000 Minnesota Vikings Police",
+        "sid": "142245"
+    },
+    {
+        "name": "2000 Norwegian Cruise Lines Miami Dolphins",
+        "sid": "315169"
+    }
+]
