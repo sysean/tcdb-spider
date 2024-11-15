@@ -2,12 +2,27 @@ from datetime import datetime
 from dataclasses import dataclass
 from typing import List
 
-from sqlalchemy.orm import Mapped, mapped_column, relationship
-from sqlalchemy import String, DateTime, Text, create_engine, Integer, Boolean, ForeignKey
+from sqlalchemy.orm import Mapped, mapped_column, relationship, joinedload, contains_eager, selectinload
+from sqlalchemy import String, DateTime, Text, create_engine, Integer, Boolean, ForeignKey, func
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
+
+
+class TimestampMixin:
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime,
+        default=func.now(),
+        nullable=False,
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime,
+        default=func.now(),
+        onupdate=func.now(),
+        nullable=False,
+    )
+
 
 """
 dataset json example:
@@ -30,7 +45,7 @@ dataset json example:
 
 
 @dataclass
-class Dataset(Base):
+class Dataset(Base, TimestampMixin):
     __tablename__ = "dataset"
 
     id: Mapped[int] = mapped_column(primary_key=True)  # 使用 sid 作为主键
@@ -66,7 +81,7 @@ card example:
 
 
 @dataclass
-class Card(Base):
+class Card(Base, TimestampMixin):
     __tablename__ = "card"
 
     id: Mapped[str] = mapped_column(String(255), primary_key=True)  # 使用 sid-cid 作为主键
@@ -84,6 +99,15 @@ class Card(Base):
     price: Mapped[str] = mapped_column(String(128), nullable=True)
 
     dataset: Mapped['Dataset'] = relationship('Dataset', back_populates='cards')
+
+
+@dataclass
+class CardCrawlerStatus(Base, TimestampMixin):
+    __tablename__ = "card_crawler_status"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    dataset_id: Mapped[int] = mapped_column(Integer, nullable=False)
+    card_id: Mapped[str] = mapped_column(String(255), nullable=False)
 
 
 # engine = create_engine('sqlite:///tcdb_cards.db', echo=True)
@@ -133,3 +157,47 @@ def get_card_count(sid: int):
     count = session.query(Card).filter(Card.dataset_id == sid).count()
     session.close()
     return count
+
+
+def get_cnt_for_database(start_year: int, end_year: int):
+    session = Session()
+    return session.query(Dataset).filter(Dataset.is_empty == False,
+                                         Dataset.total_cards > 0,
+                                         Dataset.year >= start_year,
+                                         Dataset.year <= end_year
+                                         ).count()
+
+
+# 迭代 Dataset 数据
+def iterate_datasets_with_cards(cnt: int, start_year: int, end_year: int):
+    session = Session()
+    try:
+        query = session.query(Dataset).options(
+            selectinload(Dataset.cards)
+        ).filter(
+            Dataset.is_empty == False,
+            Dataset.total_cards > 0,
+            Dataset.year >= start_year,
+            Dataset.year <= end_year
+        ).order_by(Dataset.year.asc()).yield_per(cnt)
+        for dataset in query:
+            dataset.cards.sort(key=lambda card: card.index)
+            yield dataset
+    finally:
+        session.close()
+
+
+# 根据 dataset_id 查询 CardCrawlerLog
+def query_card_crawler_log(dataset_id: int):
+    session = Session()
+    card_status_list = session.query(CardCrawlerStatus).filter(CardCrawlerStatus.dataset_id == dataset_id).all()
+    session.close()
+    return card_status_list
+
+
+def write_card_crawler_log(dataset_id: int, card_id: str):
+    session = Session()
+    card_status = CardCrawlerStatus(dataset_id=dataset_id, card_id=card_id)
+    session.add(card_status)
+    session.commit()
+    session.close()

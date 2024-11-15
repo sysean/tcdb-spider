@@ -1,12 +1,19 @@
 import requests
-from bs4 import BeautifulSoup
-from headers import headers
-from loguru import logger
 import random
 import time
+import boto3
+from bs4 import BeautifulSoup
+from headers import headers
+from log import setup_logging
+
+setup_logging()
+
+from loguru import logger
+
+s3 = boto3.client('s3')
 
 # 隧道域名:端口号
-tunnel = "p440.kdlfps.com:18866"
+tunnel = "us.p440.kdlfps.com:18866"
 
 # 用户名密码方式
 username = "f2021834041"
@@ -16,7 +23,8 @@ proxies = {
     "https": "http://%(user)s:%(pwd)s@%(proxy)s/" % {"user": username, "pwd": password, "proxy": tunnel}
 }
 
-proxies = None
+
+# proxies = None
 
 
 def send(url, msg=""):
@@ -44,3 +52,22 @@ def send(url, msg=""):
 
 def random_sleep():
     time.sleep(random.randint(1, 3))
+
+
+def download_image_to_s3(url, bucket_name, s3_path):
+    call_time = 1
+    while True:
+        logger.info(f"Downloading image from {url}, call_time: {call_time}")
+        try:
+            response = requests.get(url, headers=headers, proxies=proxies, timeout=10)
+            if response.status_code == 200:
+                image_data = response.content
+                s3.put_object(Bucket=bucket_name, Key=s3_path, Body=image_data)
+                return
+            elif response.status_code == 403:
+                random_sleep()
+                call_time += 1
+        except Exception as e:
+            logger.error(f"Downloading image from {url} failed, error: {e}")
+            random_sleep()
+            call_time += 1

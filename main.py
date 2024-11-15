@@ -4,14 +4,20 @@ from os import path
 from loguru import logger
 
 from constant import category
-from set_meta import get_card_list_by_set
+from set_meta import save_card_list_by_set
+from patch import p1934
+
+patch_dict = {
+    1934: p1934.save_card_list_by_set  # todo: need retry run
+    # 1963: p1963.save_card_list_by_set,
+}
 
 success_exit = False
 while success_exit is False:
     try:
         config = {
             "category": category,
-            "start_year": -1,
+            "start_year": 1978,
             "end_year": -1,
         }
 
@@ -62,7 +68,12 @@ while success_exit is False:
                     "sid": "123"
                 }
                 """
-                get_card_list_by_set(year, set_msg['name'], f'/Checklist.cfm/sid/{set_msg["sid"]}')
+                if year in patch_dict:
+                    # 某些年份的页面结构不一样，需要单独处理
+                    patch_dict[year](year, set_msg['name'], f'/Checklist.cfm/sid/{set_msg["sid"]}')
+                else:
+                    # 通用处理
+                    save_card_list_by_set(year, set_msg['name'], f'/Checklist.cfm/sid/{set_msg["sid"]}')
 
             logger.info(f"处理文件: {file} 完成")
         success_exit = True

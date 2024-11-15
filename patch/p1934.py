@@ -1,32 +1,10 @@
+import json
+import os
 from http_utils import send
-from log import setup_logging
 from loguru import logger
 from constant import category
 from save_db import query_dataset, get_card_count, insert_dataset, insert_card
 
-setup_logging()
-
-"""
-set example:
-
-{
-    "set_name": "2024 Donruss",
-    "rating": "TBA",
-    "total_cards": 400,
-    "release_dates": ["Donruss - Oct 24, 2024", "Factory Set - Dec 27, 2024"],
-    "set_url": "https://www.tcdb.com/Checklist.cfm/sid/462124",
-    "category": "Football",
-    "list": [
-        {
-            
-        }
-    ]
-}
-
-"""
-
-
-# image url : /Images/Cards/Football/
 
 def get_primary_key_for_card(player_url):
     sid = player_url.split('/')[3]
@@ -157,8 +135,8 @@ def save_card_list(total, set_url, soup=None, index=0):
             # 找到 li 列表
             li_list = tr_tag.find_all('li')
 
-            card_metadata["front_submitted_time"] = li_list[0].get_text().strip()[:50]
-            card_metadata["back_submitted_time"] = li_list[1].get_text().strip()[:50]
+            card_metadata["front_submitted_time"] = li_list[0].get_text().strip()
+            card_metadata["back_submitted_time"] = li_list[1].get_text().strip()
             card_metadata["price"] = li_list[2].get_text().strip()
             if card_metadata["price"] == 'Submit a Price':
                 card_metadata["price"] = None
@@ -271,7 +249,3 @@ def save_card_list_by_set(year, name, set_url):
     name = name.replace(' ', '-')
 
     logger.info(f"success get set for [{name}] in [{year}]")
-
-# get_card_list_by_set(2024, "2024 Donruss", "/Checklist.cfm/sid/462124")
-
-# get_card_list_by_set(1907, '1907 Missouri Tigers Postcards', '/Checklist.cfm/sid/245772')
