@@ -99,7 +99,7 @@ def save_card_list(total, set_url, soup=None, index=0):
                 "team": team_name,
                 "player_url": player_url,
                 "dataset_id": _get_sid(set_url),
-                "card_num": td_text_list[0],
+                "card_num": td_text_list[0][:50],
             }
 
             if is_no_img_card:

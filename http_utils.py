@@ -13,18 +13,16 @@ from loguru import logger
 s3 = boto3.client('s3')
 
 # 隧道域名:端口号
-tunnel = "us.p440.kdlfps.com:18866"
+tunnel = "161.123.152.115:6360"
+username = "fgukdhnx"
+password = "jo0h7cocz8pk"
 
-# 用户名密码方式
-username = "f2021834041"
-password = "28c5qs2e"
 proxies = {
     "http": "http://%(user)s:%(pwd)s@%(proxy)s/" % {"user": username, "pwd": password, "proxy": tunnel},
     "https": "http://%(user)s:%(pwd)s@%(proxy)s/" % {"user": username, "pwd": password, "proxy": tunnel}
 }
 
-
-# proxies = None
+proxies = None
 
 
 def send(url, msg=""):

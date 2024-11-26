@@ -1,11 +1,14 @@
+import logging
 from datetime import datetime
 from dataclasses import dataclass
 from typing import List
 
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Mapped, mapped_column, relationship, joinedload, contains_eager, selectinload
 from sqlalchemy import String, DateTime, Text, create_engine, Integer, Boolean, ForeignKey, func
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.pool import QueuePool
 
 Base = declarative_base()
 
@@ -110,10 +113,22 @@ class CardCrawlerStatus(Base, TimestampMixin):
     card_id: Mapped[str] = mapped_column(String(255), nullable=False)
 
 
+# sqlite3
 # engine = create_engine('sqlite:///tcdb_cards.db', echo=True)
+
+# mysql
+# engine = create_engine(
+#     'mysql+pymysql://sean_123:43XLpZssa*Py_!L@rm-2vc52f63lasvix4w7po.mysql.cn-chengdu.rds.aliyuncs.com:3306/tcdb',
+#     echo=True)
+
+# pgsql
 engine = create_engine(
-    'mysql+pymysql://sean_123:43XLpZssa*Py_!L@rm-2vc52f63lasvix4w7po.mysql.cn-chengdu.rds.aliyuncs.com:3306/tcdb',
-    echo=True)
+    'postgresql+psycopg://postgres:%L%sFxL3}3aKG4al}ZFBFQj-iT.h@tcdb-crawler-db.cluster-c0xt5dijvnyu.us-east-2.rds.amazonaws.com:5432/tcdb',
+    echo=True,
+    pool_size=20,  # The size of the pool to be maintained
+    max_overflow=10,  # The maximum overflow size of the pool
+    poolclass=QueuePool
+)
 
 # 创建表结构
 Base.metadata.create_all(engine)
@@ -145,11 +160,15 @@ def query_dataset(sid: int):
 
 # 插入 Card 数据，输入为 dict
 def insert_card(data: dict):
-    session = Session()
-    card = Card(**data)
-    session.add(card)
-    session.commit()
-    session.close()
+    try:
+        session = Session()
+        card = Card(**data)
+        session.add(card)
+        session.commit()
+        session.close()
+    except IntegrityError as e:
+        logging.error(f"IntegrityError: {e}")
+        return
 
 
 def get_card_count(sid: int):
@@ -179,7 +198,7 @@ def iterate_datasets_with_cards(cnt: int, start_year: int, end_year: int):
             Dataset.total_cards > 0,
             Dataset.year >= start_year,
             Dataset.year <= end_year
-        ).order_by(Dataset.year.asc()).yield_per(cnt)
+        ).order_by(Dataset.year.desc()).yield_per(cnt)
         for dataset in query:
             dataset.cards.sort(key=lambda card: card.index)
             yield dataset
@@ -201,3 +220,10 @@ def write_card_crawler_log(dataset_id: int, card_id: str):
     session.add(card_status)
     session.commit()
     session.close()
+
+
+def get_total_cards_count():
+    session = Session()
+    count = session.query(Card).count()
+    session.close()
+    return count
