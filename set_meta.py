@@ -31,7 +31,7 @@ set example:
 def get_primary_key_for_card(player_url):
     sid = player_url.split('/')[3]
     cid = player_url.split('/')[5]
-    return f"{sid}-{cid}"
+    return f"{category}_{sid}-{cid}"
 
 
 def save_card_list(total, set_url, soup=None, index=0):
@@ -98,7 +98,7 @@ def save_card_list(total, set_url, soup=None, index=0):
                 "name": card_name,
                 "team": team_name,
                 "player_url": player_url,
-                "dataset_id": _get_sid(set_url),
+                "dataset_id": _get_dataset_primary_id(set_url),
                 "card_num": td_text_list[0][:50],
             }
 
@@ -212,21 +212,21 @@ def get_set_metadata(soup):
     }
 
 
-def _get_sid(set_url):
-    return int(set_url.split('/')[-1])
+def _get_dataset_primary_id(set_url):
+    return f"{category}_{set_url.split('/')[-1]}"
 
 
 # 获取某个集合下所有的卡片列表
 def save_card_list_by_set(year, name, set_url):
-    sid = _get_sid(set_url)
+    dataset_primary_id = _get_dataset_primary_id(set_url)
 
-    dataset = query_dataset(sid)
+    dataset = query_dataset(dataset_primary_id)
     if dataset:
         if dataset.is_empty:
             logger.warning(f"set [{name}] in [{year}] is empty, ignore this set")
             return
 
-        card_count = get_card_count(sid)
+        card_count = get_card_count(dataset_primary_id)
         if card_count == dataset.total_cards:
             logger.warning(f"set [{name}] in [{year}] all cards have been saved, ignore this set")
             return
@@ -252,7 +252,7 @@ def save_card_list_by_set(year, name, set_url):
     set_metadata["set_name"] = name
     set_metadata["set_url"] = f"https://www.tcdb.com{set_url}"
     set_metadata["year"] = year
-    set_metadata["id"] = sid
+    set_metadata["id"] = dataset_primary_id
     set_metadata["category"] = category
     set_metadata["is_empty"] = set_metadata["total_cards"] == 0
 
@@ -271,7 +271,3 @@ def save_card_list_by_set(year, name, set_url):
     name = name.replace(' ', '-')
 
     logger.info(f"success get set for [{name}] in [{year}]")
-
-# get_card_list_by_set(2024, "2024 Donruss", "/Checklist.cfm/sid/462124")
-
-# get_card_list_by_set(1907, '1907 Missouri Tigers Postcards', '/Checklist.cfm/sid/245772')

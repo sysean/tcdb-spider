@@ -30,27 +30,12 @@ category_root = f'Images/Cards/{category}'
 if not os.path.exists(category_root):
     os.makedirs(category_root)
 
-# start_index = 0
-# end_index = len(years) - 1
-#
-# if config['start_year'] > 0:
-#     for i, year in enumerate(years):
-#         if year == config['start_year']:
-#             start_index = i
-#             break
-#
-# if config['end_year'] > 0 and config['end_year'] >= config['start_year']:
-#     for i, year in enumerate(years):
-#         if year == config['end_year']:
-#             end_index = i + 1
-#             break
-
 cnt = get_cnt_for_database(config['start_year'], config['end_year'])
 
 logger.info(f"需要处理的数据集数量为: {cnt}, 开始年份: {config['start_year']}, 结束年份: {config['end_year']}")
 logger.info("start download images...")
 
-for dataset in iterate_datasets_with_cards(cnt, config['start_year'], config['end_year']):
+for dataset in iterate_datasets_with_cards(config['start_year'], config['end_year']):
     card_status_list = query_card_crawler_log(dataset.id)
 
     # card_status_list 里面存在的 card，表示已经下载过了，需要过滤掉
@@ -70,6 +55,6 @@ for dataset in iterate_datasets_with_cards(cnt, config['start_year'], config['en
             download_image_to_s3(f'https://www.tcdb.com{card.back_img}', bucket_name, f'{root_path}{card.back_img}')
         logger.info(f"download image for card: {card.id} success")
 
-        write_card_crawler_log(dataset.id, card.id)
+        write_card_crawler_log(dataset.id, card.id, category)
 
 logger.info(f"year<{config['start_year']}> download images success")

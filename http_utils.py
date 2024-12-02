@@ -3,7 +3,7 @@ import random
 import time
 import boto3
 from bs4 import BeautifulSoup
-from headers import headers
+from headers import get_header
 from log import setup_logging
 
 setup_logging()
@@ -30,7 +30,7 @@ def send(url, msg=""):
     while True:
         logger.info(f"request url:[{url}], call_time:<{call_time}>, msg: {msg}")
         try:
-            response = requests.get(url, headers=headers, proxies=proxies, timeout=10)
+            response = requests.get(url, headers=get_header(call_time), proxies=proxies, timeout=10)
             html_content = response.text
             soup = BeautifulSoup(html_content, 'html.parser')
 
@@ -57,7 +57,7 @@ def download_image_to_s3(url, bucket_name, s3_path):
     while True:
         logger.info(f"Downloading image from {url}, call_time: {call_time}")
         try:
-            response = requests.get(url, headers=headers, proxies=proxies, timeout=10)
+            response = requests.get(url, headers=get_header(call_time), proxies=proxies, timeout=10)
             if response.status_code == 200:
                 image_data = response.content
                 s3.put_object(Bucket=bucket_name, Key=s3_path, Body=image_data)

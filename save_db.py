@@ -1,117 +1,12 @@
 import logging
-from datetime import datetime
-from dataclasses import dataclass
-from typing import List
 
 from sqlalchemy.exc import IntegrityError
-from sqlalchemy.orm import Mapped, mapped_column, relationship, joinedload, contains_eager, selectinload
-from sqlalchemy import String, DateTime, Text, create_engine, Integer, Boolean, ForeignKey, func
-from sqlalchemy.orm import declarative_base
+from sqlalchemy.orm import selectinload
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.pool import QueuePool
 
-Base = declarative_base()
-
-
-class TimestampMixin:
-    created_at: Mapped[datetime] = mapped_column(
-        DateTime,
-        default=func.now(),
-        nullable=False,
-    )
-    updated_at: Mapped[datetime] = mapped_column(
-        DateTime,
-        default=func.now(),
-        onupdate=func.now(),
-        nullable=False,
-    )
-
-
-"""
-dataset json example:
-
-{
-    "id": 462124,
-    "set_name": "2024 Donruss",
-    "rating": "TBA",
-    "total_cards": 400,
-    "release_dates": ["Donruss - Oct 24, 2024", "Factory Set - Dec 27, 2024"],
-    "set_url": "https://www.tcdb.com/Checklist.cfm/sid/462124",
-    "category": "Football",
-    "list": [
-        {
-            
-        }
-    ]
-}
-"""
-
-
-@dataclass
-class Dataset(Base, TimestampMixin):
-    __tablename__ = "dataset"
-
-    id: Mapped[int] = mapped_column(primary_key=True)  # 使用 sid 作为主键
-    year: Mapped[int] = mapped_column(Integer, nullable=True)
-    set_name: Mapped[str] = mapped_column(String(512), nullable=False)
-    rating: Mapped[str] = mapped_column(String(64), nullable=True)
-    total_cards: Mapped[int] = mapped_column(Integer, nullable=False)
-    release_dates: Mapped[str] = mapped_column(String(1024), nullable=True)
-    set_url: Mapped[str] = mapped_column(String(1024), nullable=False)
-    category: Mapped[str] = mapped_column(String(64), nullable=False)
-    is_empty: Mapped[bool] = mapped_column(Boolean, nullable=True)
-
-    cards: Mapped[List['Card']] = relationship('Card', back_populates='dataset')
-
-
-"""
-card example:
-
-{
-    "index": 0,
-    "name": "NNO Robert Acton",
-    "team": "Harvard Crimson",
-    "card_num": "11",
-    "sub_set": "Chrome",
-    "player_url": "/ViewCard.cfm/sid/462124/cid/26386897/2024-Donruss-3-Jerry-Jeudy?PageIndex=1",
-    "front_img": "124068/124068-8374444Fr.jpg",
-    "back_img": "124068/124068-8374444Bk.jpg",
-    "front_submitted_time": "Front submitted by styxscottii on 12/8/2021",
-    "back_submitted_time": "Back submitted by styxscottii on 12/8/2021",
-    "price": "Submit a Price"
-}
-"""
-
-
-@dataclass
-class Card(Base, TimestampMixin):
-    __tablename__ = "card"
-
-    id: Mapped[str] = mapped_column(String(255), primary_key=True)  # 使用 sid-cid 作为主键
-    dataset_id: Mapped[int] = mapped_column(Integer, ForeignKey('dataset.id'), nullable=False)
-    index: Mapped[int] = mapped_column(Integer, nullable=False)
-    name: Mapped[str] = mapped_column(String(512), nullable=False)
-    team: Mapped[str] = mapped_column(String(512), nullable=False)
-    card_num: Mapped[str] = mapped_column(String(64), nullable=True)
-    sub_set: Mapped[str] = mapped_column(String(128), nullable=True)
-    player_url: Mapped[str] = mapped_column(String(1024), nullable=False)
-    front_img: Mapped[str] = mapped_column(String(512), nullable=True)
-    back_img: Mapped[str] = mapped_column(String(512), nullable=True)
-    front_submitted_time: Mapped[str] = mapped_column(String(128), nullable=True)
-    back_submitted_time: Mapped[str] = mapped_column(String(128), nullable=True)
-    price: Mapped[str] = mapped_column(String(128), nullable=True)
-
-    dataset: Mapped['Dataset'] = relationship('Dataset', back_populates='cards')
-
-
-@dataclass
-class CardCrawlerStatus(Base, TimestampMixin):
-    __tablename__ = "card_crawler_status"
-
-    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
-    dataset_id: Mapped[int] = mapped_column(Integer, nullable=False)
-    card_id: Mapped[str] = mapped_column(String(255), nullable=False)
-
+from model_v2 import DatasetV2, CardV2, CardCrawlerStatusV2
 
 # sqlite3
 # engine = create_engine('sqlite:///tcdb_cards.db', echo=True)
@@ -131,7 +26,7 @@ engine = create_engine(
 )
 
 # 创建表结构
-Base.metadata.create_all(engine)
+# Base.metadata.create_all(engine)
 
 Session = sessionmaker(bind=engine)
 
@@ -139,66 +34,70 @@ Session = sessionmaker(bind=engine)
 # 插入 Dataset 数据，输入为 dict
 def insert_dataset(data: dict):
     session = Session()
-    dataset = session.query(Dataset).filter(Dataset.id == data['id']).first()
-    if dataset:
-        for key, value in data.items():
-            setattr(dataset, key, value)
-    else:
-        dataset = Dataset(**data)
-        session.add(dataset)
-    session.commit()
+    with session.begin():
+        dataset = session.query(DatasetV2).filter(DatasetV2.id == data['id']).first()
+        if dataset:
+            for key, value in data.items():
+                setattr(dataset, key, value)
+        else:
+            dataset = DatasetV2(**data)
+            session.add(dataset)
     session.close()
 
 
 # 查询 Dataset 数据，输入为 sid
-def query_dataset(sid: int):
+def query_dataset(sid: str):
     session = Session()
-    dataset = session.query(Dataset).filter(Dataset.id == sid).first()
+    dataset = session.query(DatasetV2).filter(DatasetV2.id == sid).first()
     session.close()
     return dataset
 
 
 # 插入 Card 数据，输入为 dict
 def insert_card(data: dict):
+    session = Session()
     try:
-        session = Session()
-        card = Card(**data)
-        session.add(card)
-        session.commit()
-        session.close()
+        with session.begin():
+            card = CardV2(**data)
+            session.add(card)
     except IntegrityError as e:
         logging.error(f"IntegrityError: {e}")
-        return
+    finally:
+        session.close()
 
 
-def get_card_count(sid: int):
+def get_card_count(sid: str):
     session = Session()
-    count = session.query(Card).filter(Card.dataset_id == sid).count()
+    count = session.query(CardV2).filter(CardV2.dataset_id == sid).count()
     session.close()
     return count
 
 
 def get_cnt_for_database(start_year: int, end_year: int):
     session = Session()
-    return session.query(Dataset).filter(Dataset.is_empty == False,
-                                         Dataset.total_cards > 0,
-                                         Dataset.year >= start_year,
-                                         Dataset.year <= end_year
-                                         ).count()
+    cnt = session.query(DatasetV2).filter(DatasetV2.is_empty == False,
+                                          DatasetV2.total_cards > 0,
+                                          DatasetV2.year >= start_year,
+                                          DatasetV2.year <= end_year
+                                          ).count()
+    session.close()
+    return cnt
 
 
 # 迭代 Dataset 数据
-def iterate_datasets_with_cards(cnt: int, start_year: int, end_year: int):
+def iterate_datasets_with_cards(start_year: int, end_year: int):
+    batch_size = 100
+
     session = Session()
     try:
-        query = session.query(Dataset).options(
-            selectinload(Dataset.cards)
+        query = session.query(DatasetV2).options(
+            selectinload(DatasetV2.cards)
         ).filter(
-            Dataset.is_empty == False,
-            Dataset.total_cards > 0,
-            Dataset.year >= start_year,
-            Dataset.year <= end_year
-        ).order_by(Dataset.year.desc()).yield_per(cnt)
+            DatasetV2.is_empty == False,
+            DatasetV2.total_cards > 0,
+            DatasetV2.year >= start_year,
+            DatasetV2.year <= end_year
+        ).order_by(DatasetV2.year.desc()).yield_per(batch_size)
         for dataset in query:
             dataset.cards.sort(key=lambda card: card.index)
             yield dataset
@@ -207,23 +106,23 @@ def iterate_datasets_with_cards(cnt: int, start_year: int, end_year: int):
 
 
 # 根据 dataset_id 查询 CardCrawlerLog
-def query_card_crawler_log(dataset_id: int):
+def query_card_crawler_log(dataset_id: str):
     session = Session()
-    card_status_list = session.query(CardCrawlerStatus).filter(CardCrawlerStatus.dataset_id == dataset_id).all()
+    card_status_list = session.query(CardCrawlerStatusV2).filter(CardCrawlerStatusV2.dataset_id == dataset_id).all()
     session.close()
     return card_status_list
 
 
-def write_card_crawler_log(dataset_id: int, card_id: str):
+def write_card_crawler_log(dataset_id: str, card_id: str, category: str):
     session = Session()
-    card_status = CardCrawlerStatus(dataset_id=dataset_id, card_id=card_id)
-    session.add(card_status)
-    session.commit()
+    with session.begin():
+        card_status = CardCrawlerStatusV2(dataset_id=dataset_id, card_id=card_id, category=category)
+        session.add(card_status)
     session.close()
 
 
 def get_total_cards_count():
     session = Session()
-    count = session.query(Card).count()
+    count = session.query(CardV2).count()
     session.close()
     return count

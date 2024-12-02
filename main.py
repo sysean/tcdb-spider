@@ -22,6 +22,7 @@ patch_dict = {
 # 2024 还没结束
 
 error_year_set = {
+    2024: ["2024-Wild-Card-Matte-Amon-Ra"],
     2023: ["Chase-Brown"],
     2017: ["2017-Donruss"],
     2011: ["2011-Panini"],
@@ -42,6 +43,7 @@ def check_error_continue(year, sid):
 
 
 after_dict = {
+    2024: "466092",
     2010: "2010-Panini",
     2009: "Topps",
     2008: "235890",
