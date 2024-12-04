@@ -212,3 +212,10 @@ def query_card_crawler_status(card_id: str):
     card_status = session.query(CardCrawlerStatusV2).filter(CardCrawlerStatusV2.card_id == card_id).first()
     session.close()
     return card_status
+
+
+def query_card_list(card_id_list: list[str]):
+    session = Session()
+    card_list = session.query(CardV2).filter(CardV2.id.in_(card_id_list)).all()
+    session.close()
+    return card_list

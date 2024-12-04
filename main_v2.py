@@ -45,7 +45,7 @@ if year_cursor_list:
                 index = i
                 break
         logger.info(
-            f"year: {year} 一共有 {year_dataset_dict[year]}个集合, 已处理 {index + 1} 个集合, "
+            f"year: {year} 一共有 {len(year_dataset_dict[year])}个集合, 已处理 {index + 1} 个集合, "
             f"剩余 {len(year_dataset_dict[year]) - index - 1} 个集合未处理")
 
         year_dataset_dict[year] = year_dataset_dict[year][index + 1:]
