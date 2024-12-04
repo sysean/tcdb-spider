@@ -1,6 +1,5 @@
 # 图片下载路径为 tcdb/Images/Cards/Football/107092/107092-24598750RepFr.jpg
 import os
-from constant import years
 from loguru import logger
 
 from http_utils import download_image_to_s3
@@ -25,10 +24,6 @@ config = {
 
 bucket_name = 'irida'
 root_path = 'tcdb'
-
-category_root = f'Images/Cards/{category}'
-if not os.path.exists(category_root):
-    os.makedirs(category_root)
 
 cnt = get_cnt_for_database(config['start_year'], config['end_year'])
 

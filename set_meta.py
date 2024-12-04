@@ -1,10 +1,19 @@
-from http_utils import send
+import asyncio
+import os
+
+from http_utils import send, download_image_to_s3
 from log import setup_logging
 from loguru import logger
 from constant import category
-from save_db import query_dataset, get_card_count, insert_dataset, insert_card
+from save_db import query_dataset, get_card_count, insert_dataset, insert_card, query_card_crawler_status, \
+    write_card_crawler_log
 
 setup_logging()
+
+bucket_name = 'irida'
+root_path = 'tcdb'
+
+category_root = f'Images/Cards/{category}'
 
 """
 set example:
@@ -165,6 +174,9 @@ def save_card_list(total, set_url, soup=None, index=0):
 
             insert_card(card_metadata)
 
+            if os.getenv("DOWNLOAD_IMG"):
+                download_img(card_metadata["dataset_id"], card_metadata["id"], front_img, back_img)
+
             card_list.append(card_metadata)
 
             index += 1
@@ -271,3 +283,18 @@ def save_card_list_by_set(year, name, set_url):
     name = name.replace(' ', '-')
 
     logger.info(f"success get set for [{name}] in [{year}]")
+
+
+def download_img(dataset_id: str, card_id: str, front_img: str, back_img: str):
+    ccs = query_card_crawler_status(card_id)
+    if ccs:
+        logger.info("card has been downloaded, ignore")
+        return
+
+    if front_img:
+        download_image_to_s3(f'https://www.tcdb.com{front_img}', bucket_name, f'{root_path}{front_img}')
+
+    if back_img:
+        download_image_to_s3(f'https://www.tcdb.com{back_img}', bucket_name, f'{root_path}{back_img}')
+
+    write_card_crawler_log(dataset_id, card_id, category)

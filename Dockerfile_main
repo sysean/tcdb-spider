@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Make port 80 available to the world outside this container
 EXPOSE 80
 
-ENV START_YEAR=2022, END_YEAR=2022, CATEGORY=Football
+ENV START_YEAR=2022, END_YEAR=2022, CATEGORY=Football, DOWNLOAD_IMG=1
 
 # Run main.py when the container launches
-CMD ["python", "main.py"]
+CMD ["python", "main_v2.py"]

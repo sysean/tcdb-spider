@@ -1,3 +1,5 @@
+from loguru import logger
+
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
     "Accept": "*/*",
@@ -67,7 +69,7 @@ headers_v2 = {
     "Accept": "*/*",
 }
 
-header_list = [headers, headers_v2, 1]
+header_list = [headers, headers_v2]
 index = 0
 
 
@@ -75,4 +77,5 @@ def get_header(call_time):
     global index
     if call_time > 50:
         index += 1
+        logger.info(f"change header to: index: {(index + 1) % len(header_list)}")
     return header_list[(index + 1) % len(header_list)]

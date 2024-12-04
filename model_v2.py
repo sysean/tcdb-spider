@@ -1,11 +1,9 @@
-import logging
 from datetime import datetime
 from dataclasses import dataclass
 from typing import List
 
-from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Mapped, mapped_column, relationship, joinedload, contains_eager, selectinload
-from sqlalchemy import String, DateTime, Integer, Boolean, ForeignKey, func
+from sqlalchemy import String, DateTime, Integer, Boolean, ForeignKey, func, Text
 from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
@@ -71,3 +69,36 @@ class CardCrawlerStatusV2(Base, TimestampMixin):
     category: Mapped[str] = mapped_column(String(128), nullable=False)
     dataset_id: Mapped[str] = mapped_column(String, nullable=False)
     card_id: Mapped[str] = mapped_column(String(255), nullable=False)
+
+
+@dataclass
+class OutputYearDataset(Base, TimestampMixin):
+    __tablename__ = "output_year_dataset"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    category: Mapped[str] = mapped_column(String(128), nullable=False)
+    year: Mapped[int] = mapped_column(Integer, nullable=False)
+    sid: Mapped[str] = mapped_column(String(128), nullable=False)
+    set_name: Mapped[str] = mapped_column(String(512), nullable=False)
+
+
+@dataclass
+class ErrorDatasetLog(Base, TimestampMixin):
+    __tablename__ = "error_dataset_log"
+
+    id: Mapped[str] = mapped_column(String(255), primary_key=True)  # DatasetV2.id
+    category: Mapped[str] = mapped_column(String(128), nullable=False)
+    year: Mapped[int] = mapped_column(Integer, nullable=False)
+    set_name: Mapped[str] = mapped_column(String(512), nullable=True)
+    error_msg: Mapped[str] = mapped_column(Text, nullable=False)
+    retry_times: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+
+
+@dataclass
+class DatasetCursor(Base, TimestampMixin):
+    __tablename__ = "dataset_cursor"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    category: Mapped[str] = mapped_column(String(128), nullable=False)
+    year: Mapped[int] = mapped_column(Integer, nullable=False)
+    sid: Mapped[str] = mapped_column(String(128), nullable=False)
