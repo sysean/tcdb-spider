@@ -23,7 +23,8 @@ engine = create_engine(
     echo=True,
     pool_size=20,  # The size of the pool to be maintained
     max_overflow=10,  # The maximum overflow size of the pool
-    poolclass=QueuePool
+    poolclass=QueuePool,
+    connect_args={'connect_timeout': 10}  # Set the connection timeout to 10 seconds
 )
 
 # 创建表结构
