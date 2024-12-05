@@ -12,14 +12,14 @@ from loguru import logger
 
 s3 = boto3.client('s3')
 
-# 隧道域名:端口号
-tunnel = "161.123.152.115:6360"
-username = "fgukdhnx"
-password = "jo0h7cocz8pk"
+# proxies = {
+#     'http': 'http://S1zO6DCYBhFoBmAY:WVOEMucxzg54GrI1@geo.iproyal.com:12321',
+#     'https': 'http://S1zO6DCYBhFoBmAY:WVOEMucxzg54GrI1@geo.iproyal.com:12321'
+# }
 
 proxies = {
-    "http": "http://%(user)s:%(pwd)s@%(proxy)s/" % {"user": username, "pwd": password, "proxy": tunnel},
-    "https": "http://%(user)s:%(pwd)s@%(proxy)s/" % {"user": username, "pwd": password, "proxy": tunnel}
+    'http': 'http://127.0.0.1:7890',
+    'https': 'http://127.0.0.1:7890',
 }
 
 proxies = None
