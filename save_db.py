@@ -208,6 +208,9 @@ def get_total_cards_count():
     return count
 
 
+# print(get_total_cards_count())
+
+
 def query_card_crawler_status(card_id: str):
     session = Session()
     card_status = session.query(CardCrawlerStatusV2).filter(CardCrawlerStatusV2.card_id == card_id).first()

@@ -12,14 +12,11 @@ from loguru import logger
 
 s3 = boto3.client('s3')
 
-# proxies = {
-#     'http': 'http://S1zO6DCYBhFoBmAY:WVOEMucxzg54GrI1@geo.iproyal.com:12321',
-#     'https': 'http://S1zO6DCYBhFoBmAY:WVOEMucxzg54GrI1@geo.iproyal.com:12321'
-# }
+proxy_url = 'http://103.214.44.131:12321'
 
 proxies = {
-    'http': 'http://127.0.0.1:7890',
-    'https': 'http://127.0.0.1:7890',
+    'http': proxy_url,
+    'https': proxy_url
 }
 
 proxies = None

@@ -81,3 +81,4 @@ def get_header(call_time):
         else:
             current_header_index = 0
         return header_list[current_header_index]
+    return header_list[current_header_index]
