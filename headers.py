@@ -76,7 +76,6 @@ headers_v3 = {
     "sec-ch-ua-platform": '"Windows"',
     "Upgrade-Insecure-Requests": "1",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
     "Sec-Fetch-Site": "none",
     "Sec-Fetch-Mode": "navigate",
     "Sec-Fetch-User": "?1",
@@ -85,6 +84,7 @@ headers_v3 = {
     "Accept-Language": "zh-CN,zh;q=0.9",
     "Priority": "u=0, i",
     "Cookie": "__cf_bm=FDCGWm8TYVwKIgEHMle2Sc6MFTMlLCcaupsCEzQYvGM-1733735764-1.0.1.1-hgxcSyw_UA.wunt7iZF9dc2l5yMLX.iT2.b2O0X1vwCxr7H4UA6KrK2rT.Lp79pmX0pH8nSNS7HiE04hrSA6Qw; CFID=1999324526; CFTOKEN=e3a148977df305ae-AB0C443D-92C0-1FD0-B1103C3AB772C9FC; JSESSIONID=9A18B8B7F61011160849E523B038B529.cfusion; _ga=GA1.1.1754710102.1733735795; cf_clearance=pNgqV2MPf.NzPwvZBWagixGfqqq.hOwYsllnkFNQVTQ-1733735775-1.2.1.1-dhKAD.OqoENSPQs_Hr32DYrsYc8Ap68Gg02HyRHtVeAXH.DBk2l0aUXHX7QPNfSaThDxeCO3BPKV_D8C6fHPtmWn01Cbk_gmIS3Yb8tmLAytVqONiq.M_faPl9Pkj0HN320.R0UD.B6ZMkf5tJds1qRnHEGtFvjeJj6GlB_CNbWAsioLk0CgkeTWHD5a6roD55guCwjVh2w3KjlISIzqcVzN0Qs.LeKkdjSEZ.0iE13mqUlaVEkv0jCzfuGvgbothWYZy7GJ6y.G4Q5i1Dh4kwdWv1enzDO07NQMCrR9sHT5GRaTgggRUdpSydqguDnpGF.kp7EyPNTKtzkD3Fc.bJl1zv71cLVeJMp9PB3evRmNm1SpkLaHDnYZJ.fBSrf.qbS4kuorGHrE0RGZIh_h8NQ1LXtLap0cXQLaozxf1k8MAdgw1mHeasRr0hxeO8ZD; _sharedID=34bb057f-111a-4732-8822-b8135cf1c773; usprivacy=1N--; _cc_id=51832671c43e231825e574d58ec81ca0; panoramaId_expiry=1734340577984; panoramaId=f756d27b5ce7907e4ee3f3527558185ca02c67b03fb49db284776fd7dfb365a4; panoramaIdType=panoDevice; __gads=ID=32f4d46688e37275:T=1733735779:RT=1733735779:S=ALNI_MaYLLPFLwFTrR5T-vlp_vi3mkg6jw; __gpi=UID=00000f88179280ec:T=1733735779:RT=1733735779:S=ALNI_Mb4xxPtvuSg0xQne4WBR5r-957dpw; __eoi=ID=7654b60e7592477e:T=1733735779:RT=1733735779:S=AA-AfjZLg8jlZUmMVnczoISVCXvK; _sharedID_cst=kSylLAssaw%3D%3D; _ga_VGXS6LWKSL=GS1.1.1733735795.1.0.1733735803.0.0.0; cto_bundle=GmEATV8xQVglMkIlMkZHN0pVWSUyQk9MYmY2cVpPUGE2cXpKdlpTRU5jZ2xqV0daRmtIbTclMkJGYjBjTFhuMVVjbXJabmtSVHV2dFY4R2JWZThrYXNSMzRIcmx6SCUyRnNUc0NWQVlwUGJYemtmM3Z4cVJqbG42czUlMkY5S2U5cFFCbGFQUkxwJTJGVU5ObG5QeTBiZlFGVlpMQ2pDbnZhNEhLcXVOZyUzRCUz",
+    "Accept": "*/*",
 }
 
 header_list = [headers, headers_v2, headers_v3]
